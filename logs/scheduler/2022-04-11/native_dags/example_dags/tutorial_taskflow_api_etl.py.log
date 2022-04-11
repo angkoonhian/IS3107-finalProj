@@ -1,0 +1,724 @@
+[2022-04-11 16:41:50,772] {processor.py:163} INFO - Started process (PID=9874) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:41:50,773] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:41:50,774] {logging_mixin.py:109} INFO - [2022-04-11 16:41:50,774] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:41:50,798] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:41:51,182] {logging_mixin.py:109} INFO - [2022-04-11 16:41:51,181] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:41:51,198] {logging_mixin.py:109} INFO - [2022-04-11 16:41:51,198] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:41:51,220] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.450 seconds
+[2022-04-11 16:42:26,993] {processor.py:163} INFO - Started process (PID=10008) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:42:26,995] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:42:26,995] {logging_mixin.py:109} INFO - [2022-04-11 16:42:26,995] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:42:27,021] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:42:27,403] {logging_mixin.py:109} INFO - [2022-04-11 16:42:27,403] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:42:27,421] {logging_mixin.py:109} INFO - [2022-04-11 16:42:27,420] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:42:27,436] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.445 seconds
+[2022-04-11 16:43:05,735] {processor.py:163} INFO - Started process (PID=10128) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:43:05,736] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:43:05,737] {logging_mixin.py:109} INFO - [2022-04-11 16:43:05,737] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:43:05,768] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:43:06,120] {logging_mixin.py:109} INFO - [2022-04-11 16:43:06,119] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:43:06,156] {logging_mixin.py:109} INFO - [2022-04-11 16:43:06,156] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:43:06,180] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.449 seconds
+[2022-04-11 16:43:43,814] {processor.py:163} INFO - Started process (PID=10350) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:43:43,818] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:43:43,819] {logging_mixin.py:109} INFO - [2022-04-11 16:43:43,818] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:43:43,868] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:43:44,366] {logging_mixin.py:109} INFO - [2022-04-11 16:43:44,365] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:43:44,394] {logging_mixin.py:109} INFO - [2022-04-11 16:43:44,394] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:43:44,417] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.612 seconds
+[2022-04-11 16:44:21,935] {processor.py:163} INFO - Started process (PID=10491) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:44:21,936] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:44:21,937] {logging_mixin.py:109} INFO - [2022-04-11 16:44:21,937] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:44:21,959] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:44:22,176] {logging_mixin.py:109} INFO - [2022-04-11 16:44:22,176] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:44:22,189] {logging_mixin.py:109} INFO - [2022-04-11 16:44:22,189] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:44:22,201] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.270 seconds
+[2022-04-11 16:45:02,628] {processor.py:163} INFO - Started process (PID=10712) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:45:02,630] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:45:02,631] {logging_mixin.py:109} INFO - [2022-04-11 16:45:02,631] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:45:02,669] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:45:03,039] {logging_mixin.py:109} INFO - [2022-04-11 16:45:03,039] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:45:03,056] {logging_mixin.py:109} INFO - [2022-04-11 16:45:03,056] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:45:03,071] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.448 seconds
+[2022-04-11 16:45:37,839] {processor.py:163} INFO - Started process (PID=10772) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:45:37,841] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:45:37,841] {logging_mixin.py:109} INFO - [2022-04-11 16:45:37,841] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:45:37,860] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:45:38,043] {logging_mixin.py:109} INFO - [2022-04-11 16:45:38,043] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:45:38,052] {logging_mixin.py:109} INFO - [2022-04-11 16:45:38,052] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:45:38,063] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.226 seconds
+[2022-04-11 16:46:16,694] {processor.py:163} INFO - Started process (PID=10915) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:46:16,695] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:46:16,696] {logging_mixin.py:109} INFO - [2022-04-11 16:46:16,696] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:46:16,716] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:46:17,082] {logging_mixin.py:109} INFO - [2022-04-11 16:46:17,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:46:17,098] {logging_mixin.py:109} INFO - [2022-04-11 16:46:17,098] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:46:17,114] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.423 seconds
+[2022-04-11 16:46:58,027] {processor.py:163} INFO - Started process (PID=11196) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:46:58,030] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:46:58,031] {logging_mixin.py:109} INFO - [2022-04-11 16:46:58,030] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:46:58,058] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:46:58,324] {logging_mixin.py:109} INFO - [2022-04-11 16:46:58,324] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:46:58,339] {logging_mixin.py:109} INFO - [2022-04-11 16:46:58,338] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:46:58,351] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.328 seconds
+[2022-04-11 16:47:33,604] {processor.py:163} INFO - Started process (PID=11369) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:47:33,605] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:47:33,610] {logging_mixin.py:109} INFO - [2022-04-11 16:47:33,610] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:47:33,653] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:47:34,110] {logging_mixin.py:109} INFO - [2022-04-11 16:47:34,110] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:47:34,132] {logging_mixin.py:109} INFO - [2022-04-11 16:47:34,132] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:47:34,153] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.556 seconds
+[2022-04-11 16:48:20,900] {processor.py:163} INFO - Started process (PID=11602) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:48:20,910] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:48:20,911] {logging_mixin.py:109} INFO - [2022-04-11 16:48:20,911] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:48:20,966] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:48:21,496] {logging_mixin.py:109} INFO - [2022-04-11 16:48:21,496] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:48:21,526] {logging_mixin.py:109} INFO - [2022-04-11 16:48:21,525] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:48:21,549] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.656 seconds
+[2022-04-11 16:49:01,237] {processor.py:163} INFO - Started process (PID=11812) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:49:01,239] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:49:01,240] {logging_mixin.py:109} INFO - [2022-04-11 16:49:01,240] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:49:01,260] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:49:01,469] {logging_mixin.py:109} INFO - [2022-04-11 16:49:01,469] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:49:01,480] {logging_mixin.py:109} INFO - [2022-04-11 16:49:01,480] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:49:01,492] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.257 seconds
+[2022-04-11 16:49:47,862] {processor.py:163} INFO - Started process (PID=12074) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:49:47,864] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:49:47,865] {logging_mixin.py:109} INFO - [2022-04-11 16:49:47,865] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:49:47,927] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:49:48,421] {logging_mixin.py:109} INFO - [2022-04-11 16:49:48,421] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:49:48,445] {logging_mixin.py:109} INFO - [2022-04-11 16:49:48,445] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:49:48,470] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.621 seconds
+[2022-04-11 16:50:25,072] {processor.py:163} INFO - Started process (PID=12290) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:50:25,074] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:50:25,075] {logging_mixin.py:109} INFO - [2022-04-11 16:50:25,075] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:50:25,125] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:50:25,640] {logging_mixin.py:109} INFO - [2022-04-11 16:50:25,640] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:50:25,667] {logging_mixin.py:109} INFO - [2022-04-11 16:50:25,667] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:50:25,684] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.619 seconds
+[2022-04-11 16:51:05,404] {processor.py:163} INFO - Started process (PID=12512) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:51:05,406] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:51:05,407] {logging_mixin.py:109} INFO - [2022-04-11 16:51:05,407] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:51:05,470] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:51:05,961] {logging_mixin.py:109} INFO - [2022-04-11 16:51:05,961] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:51:05,983] {logging_mixin.py:109} INFO - [2022-04-11 16:51:05,983] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:51:06,005] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.605 seconds
+[2022-04-11 16:51:46,091] {processor.py:163} INFO - Started process (PID=12705) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:51:46,094] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:51:46,095] {logging_mixin.py:109} INFO - [2022-04-11 16:51:46,095] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:51:46,131] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:51:46,554] {logging_mixin.py:109} INFO - [2022-04-11 16:51:46,554] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:51:46,574] {logging_mixin.py:109} INFO - [2022-04-11 16:51:46,574] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:51:46,594] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.507 seconds
+[2022-04-11 16:52:25,990] {processor.py:163} INFO - Started process (PID=12743) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:52:25,992] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:52:25,992] {logging_mixin.py:109} INFO - [2022-04-11 16:52:25,992] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:52:26,018] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:52:26,316] {logging_mixin.py:109} INFO - [2022-04-11 16:52:26,316] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:52:26,332] {logging_mixin.py:109} INFO - [2022-04-11 16:52:26,332] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:52:26,346] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.360 seconds
+[2022-04-11 16:53:04,494] {processor.py:163} INFO - Started process (PID=12840) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:53:04,495] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:53:04,496] {logging_mixin.py:109} INFO - [2022-04-11 16:53:04,496] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:53:04,518] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:53:04,722] {logging_mixin.py:109} INFO - [2022-04-11 16:53:04,722] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:53:04,731] {logging_mixin.py:109} INFO - [2022-04-11 16:53:04,731] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:53:04,741] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.250 seconds
+[2022-04-11 16:53:44,683] {processor.py:163} INFO - Started process (PID=12940) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:53:44,685] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:53:44,685] {logging_mixin.py:109} INFO - [2022-04-11 16:53:44,685] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:53:44,707] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:53:44,905] {logging_mixin.py:109} INFO - [2022-04-11 16:53:44,905] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:53:44,915] {logging_mixin.py:109} INFO - [2022-04-11 16:53:44,915] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:53:44,926] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.245 seconds
+[2022-04-11 16:54:23,779] {processor.py:163} INFO - Started process (PID=12989) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:54:23,780] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:54:23,781] {logging_mixin.py:109} INFO - [2022-04-11 16:54:23,781] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:54:23,808] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:54:24,056] {logging_mixin.py:109} INFO - [2022-04-11 16:54:24,056] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:54:24,068] {logging_mixin.py:109} INFO - [2022-04-11 16:54:24,068] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:54:24,082] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.307 seconds
+[2022-04-11 16:55:01,269] {processor.py:163} INFO - Started process (PID=13096) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:55:01,272] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:55:01,274] {logging_mixin.py:109} INFO - [2022-04-11 16:55:01,273] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:55:01,325] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:55:01,674] {logging_mixin.py:109} INFO - [2022-04-11 16:55:01,674] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:55:01,688] {logging_mixin.py:109} INFO - [2022-04-11 16:55:01,688] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:55:01,704] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.443 seconds
+[2022-04-11 16:55:42,532] {processor.py:163} INFO - Started process (PID=13229) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:55:42,535] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:55:42,537] {logging_mixin.py:109} INFO - [2022-04-11 16:55:42,537] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:55:42,595] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:55:43,170] {logging_mixin.py:109} INFO - [2022-04-11 16:55:43,170] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:55:43,195] {logging_mixin.py:109} INFO - [2022-04-11 16:55:43,195] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:55:43,216] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.689 seconds
+[2022-04-11 16:56:26,341] {processor.py:163} INFO - Started process (PID=13297) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:56:26,344] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:56:26,346] {logging_mixin.py:109} INFO - [2022-04-11 16:56:26,345] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:56:26,405] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:56:26,892] {logging_mixin.py:109} INFO - [2022-04-11 16:56:26,892] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:56:26,911] {logging_mixin.py:109} INFO - [2022-04-11 16:56:26,910] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:56:26,933] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.601 seconds
+[2022-04-11 16:57:15,065] {processor.py:163} INFO - Started process (PID=13489) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:57:15,068] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:57:15,069] {logging_mixin.py:109} INFO - [2022-04-11 16:57:15,069] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:57:15,114] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:57:15,517] {logging_mixin.py:109} INFO - [2022-04-11 16:57:15,516] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:57:15,535] {logging_mixin.py:109} INFO - [2022-04-11 16:57:15,535] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:57:15,552] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.493 seconds
+[2022-04-11 16:57:53,730] {processor.py:163} INFO - Started process (PID=13523) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:57:53,731] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:57:53,731] {logging_mixin.py:109} INFO - [2022-04-11 16:57:53,731] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:57:53,750] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:57:53,948] {logging_mixin.py:109} INFO - [2022-04-11 16:57:53,948] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:57:53,961] {logging_mixin.py:109} INFO - [2022-04-11 16:57:53,961] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:57:53,976] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.248 seconds
+[2022-04-11 16:58:35,716] {processor.py:163} INFO - Started process (PID=13561) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:58:35,717] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:58:35,717] {logging_mixin.py:109} INFO - [2022-04-11 16:58:35,717] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:58:35,739] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:58:35,945] {logging_mixin.py:109} INFO - [2022-04-11 16:58:35,945] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:58:35,957] {logging_mixin.py:109} INFO - [2022-04-11 16:58:35,957] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:58:35,970] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.256 seconds
+[2022-04-11 16:59:19,244] {processor.py:163} INFO - Started process (PID=13596) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:59:19,247] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 16:59:19,249] {logging_mixin.py:109} INFO - [2022-04-11 16:59:19,248] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:59:19,336] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 16:59:20,371] {logging_mixin.py:109} INFO - [2022-04-11 16:59:20,371] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:59:20,397] {logging_mixin.py:109} INFO - [2022-04-11 16:59:20,397] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 16:59:20,425] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.189 seconds
+[2022-04-11 17:00:01,188] {processor.py:163} INFO - Started process (PID=13757) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:00:01,189] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:00:01,189] {logging_mixin.py:109} INFO - [2022-04-11 17:00:01,189] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:00:01,210] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:00:01,443] {logging_mixin.py:109} INFO - [2022-04-11 17:00:01,443] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:00:01,454] {logging_mixin.py:109} INFO - [2022-04-11 17:00:01,454] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:00:01,466] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.281 seconds
+[2022-04-11 17:00:55,108] {processor.py:163} INFO - Started process (PID=13990) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:00:55,109] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:00:55,110] {logging_mixin.py:109} INFO - [2022-04-11 17:00:55,110] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:00:55,128] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:00:55,348] {logging_mixin.py:109} INFO - [2022-04-11 17:00:55,348] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:00:55,361] {logging_mixin.py:109} INFO - [2022-04-11 17:00:55,361] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:00:55,381] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.275 seconds
+[2022-04-11 17:02:25,031] {processor.py:163} INFO - Started process (PID=14873) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:02:25,034] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:02:25,035] {logging_mixin.py:109} INFO - [2022-04-11 17:02:25,035] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:02:25,058] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:02:25,277] {logging_mixin.py:109} INFO - [2022-04-11 17:02:25,277] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:02:25,288] {logging_mixin.py:109} INFO - [2022-04-11 17:02:25,288] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:02:25,301] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.273 seconds
+[2022-04-11 17:04:24,016] {processor.py:163} INFO - Started process (PID=15788) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:04:24,019] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:04:24,020] {logging_mixin.py:109} INFO - [2022-04-11 17:04:24,020] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:04:24,042] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:04:24,451] {logging_mixin.py:109} INFO - [2022-04-11 17:04:24,450] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:04:24,464] {logging_mixin.py:109} INFO - [2022-04-11 17:04:24,464] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:04:24,482] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.469 seconds
+[2022-04-11 17:05:20,697] {processor.py:163} INFO - Started process (PID=16008) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:05:20,699] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:05:20,700] {logging_mixin.py:109} INFO - [2022-04-11 17:05:20,700] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:05:20,727] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:05:21,201] {logging_mixin.py:109} INFO - [2022-04-11 17:05:21,200] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:05:21,218] {logging_mixin.py:109} INFO - [2022-04-11 17:05:21,218] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:05:21,233] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.540 seconds
+[2022-04-11 17:06:35,469] {processor.py:163} INFO - Started process (PID=16251) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:06:35,472] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:06:35,472] {logging_mixin.py:109} INFO - [2022-04-11 17:06:35,472] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:06:35,494] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:06:35,623] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:06:35,625] {logging_mixin.py:109} INFO - [2022-04-11 17:06:35,623] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:06:35,626] {logging_mixin.py:109} INFO - [2022-04-11 17:06:35,626] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:06:35,638] {logging_mixin.py:109} INFO - [2022-04-11 17:06:35,638] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:06:35,659] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.193 seconds
+[2022-04-11 17:07:49,358] {processor.py:163} INFO - Started process (PID=16519) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:07:49,359] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:07:49,360] {logging_mixin.py:109} INFO - [2022-04-11 17:07:49,360] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:07:49,394] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:07:49,534] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:07:49,538] {logging_mixin.py:109} INFO - [2022-04-11 17:07:49,534] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:07:49,539] {logging_mixin.py:109} INFO - [2022-04-11 17:07:49,539] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:07:49,555] {logging_mixin.py:109} INFO - [2022-04-11 17:07:49,555] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:07:49,579] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.225 seconds
+[2022-04-11 17:08:57,075] {processor.py:163} INFO - Started process (PID=16670) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:08:57,077] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:08:57,078] {logging_mixin.py:109} INFO - [2022-04-11 17:08:57,078] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:08:57,100] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:08:57,236] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:08:57,238] {logging_mixin.py:109} INFO - [2022-04-11 17:08:57,236] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:08:57,239] {logging_mixin.py:109} INFO - [2022-04-11 17:08:57,239] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:08:57,257] {logging_mixin.py:109} INFO - [2022-04-11 17:08:57,257] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:08:57,280] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.208 seconds
+[2022-04-11 17:09:54,152] {processor.py:163} INFO - Started process (PID=16853) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:09:54,154] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:09:54,154] {logging_mixin.py:109} INFO - [2022-04-11 17:09:54,154] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:09:54,182] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:09:54,327] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:09:54,330] {logging_mixin.py:109} INFO - [2022-04-11 17:09:54,328] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:09:54,331] {logging_mixin.py:109} INFO - [2022-04-11 17:09:54,331] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:09:54,345] {logging_mixin.py:109} INFO - [2022-04-11 17:09:54,345] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:09:54,370] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.222 seconds
+[2022-04-11 17:10:49,728] {processor.py:163} INFO - Started process (PID=17184) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:10:49,730] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:10:49,732] {logging_mixin.py:109} INFO - [2022-04-11 17:10:49,731] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:10:49,770] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:10:49,953] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:10:49,956] {logging_mixin.py:109} INFO - [2022-04-11 17:10:49,953] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:10:49,956] {logging_mixin.py:109} INFO - [2022-04-11 17:10:49,956] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:10:49,974] {logging_mixin.py:109} INFO - [2022-04-11 17:10:49,974] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:10:49,996] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.276 seconds
+[2022-04-11 17:12:44,427] {processor.py:163} INFO - Started process (PID=17769) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:12:44,429] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:12:44,430] {logging_mixin.py:109} INFO - [2022-04-11 17:12:44,430] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:12:44,471] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:12:44,481] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:12:44,887] {logging_mixin.py:109} INFO - [2022-04-11 17:12:44,887] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:12:45,075] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:12:45,098] {logging_mixin.py:109} INFO - [2022-04-11 17:12:45,098] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:12:45,134] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.711 seconds
+[2022-04-11 17:13:42,786] {processor.py:163} INFO - Started process (PID=17919) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:13:42,795] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:13:42,796] {logging_mixin.py:109} INFO - [2022-04-11 17:13:42,796] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:13:42,893] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:13:42,904] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:13:43,623] {logging_mixin.py:109} INFO - [2022-04-11 17:13:43,623] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:13:43,868] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:13:43,890] {logging_mixin.py:109} INFO - [2022-04-11 17:13:43,885] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:13:43,935] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.164 seconds
+[2022-04-11 17:14:38,104] {processor.py:163} INFO - Started process (PID=18138) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:14:38,106] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:14:38,107] {logging_mixin.py:109} INFO - [2022-04-11 17:14:38,107] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:14:38,133] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:14:38,138] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:14:38,369] {logging_mixin.py:109} INFO - [2022-04-11 17:14:38,369] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:14:38,476] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:14:38,487] {logging_mixin.py:109} INFO - [2022-04-11 17:14:38,487] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:14:38,502] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.402 seconds
+[2022-04-11 17:15:28,373] {processor.py:163} INFO - Started process (PID=18270) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:15:28,384] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:15:28,385] {logging_mixin.py:109} INFO - [2022-04-11 17:15:28,385] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:15:28,463] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:15:28,479] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:15:29,419] {logging_mixin.py:109} INFO - [2022-04-11 17:15:29,419] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:15:29,451] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:15:29,468] {logging_mixin.py:109} INFO - [2022-04-11 17:15:29,468] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:15:29,503] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.138 seconds
+[2022-04-11 17:16:18,654] {processor.py:163} INFO - Started process (PID=18422) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:16:18,658] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:16:18,659] {logging_mixin.py:109} INFO - [2022-04-11 17:16:18,659] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:16:18,735] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:16:18,754] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:16:19,479] {logging_mixin.py:109} INFO - [2022-04-11 17:16:19,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:16:19,502] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:16:19,518] {logging_mixin.py:109} INFO - [2022-04-11 17:16:19,518] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:16:19,546] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.899 seconds
+[2022-04-11 17:17:05,967] {processor.py:163} INFO - Started process (PID=18640) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:17:05,969] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:17:05,970] {logging_mixin.py:109} INFO - [2022-04-11 17:17:05,969] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:17:05,993] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:17:05,998] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:17:06,091] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:17:06,093] {logging_mixin.py:109} INFO - [2022-04-11 17:17:06,091] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 21, in <module>
+    from .convert import Model2SchemaConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/convert.py", line 4, in <module>
+    from flask_appbuilder.models.sqla.interface import SQLAInterface
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/models/sqla/interface.py", line 16, in <module>
+    from sqlalchemy_utils.types.uuid import UUIDType
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/__init__.py", line 59, in <module>
+    from .types import (  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/__init__.py", line 20, in <module>
+    from .password import Password, PasswordType  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/password.py", line 5, in <module>
+    from sqlalchemy.dialects import oracle, postgresql, sqlite
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/__init__.py", line 9, in <module>
+    from . import cx_oracle  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py", line 679, in <module>
+    class ReturningResultProxy(_result.FullyBufferedResultProxy):
+AttributeError: module 'sqlalchemy.engine.result' has no attribute 'FullyBufferedResultProxy'
+[2022-04-11 17:17:06,093] {logging_mixin.py:109} INFO - [2022-04-11 17:17:06,093] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:17:06,104] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:17:06,111] {logging_mixin.py:109} INFO - [2022-04-11 17:17:06,111] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:17:06,130] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.166 seconds
+[2022-04-11 17:18:00,535] {processor.py:163} INFO - Started process (PID=18732) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:18:00,536] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:18:00,537] {logging_mixin.py:109} INFO - [2022-04-11 17:18:00,536] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:18:00,576] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:18:00,582] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:18:00,730] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:18:00,732] {logging_mixin.py:109} INFO - [2022-04-11 17:18:00,730] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 21, in <module>
+    from .convert import Model2SchemaConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/convert.py", line 4, in <module>
+    from flask_appbuilder.models.sqla.interface import SQLAInterface
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/models/sqla/interface.py", line 16, in <module>
+    from sqlalchemy_utils.types.uuid import UUIDType
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/__init__.py", line 59, in <module>
+    from .types import (  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/__init__.py", line 20, in <module>
+    from .password import Password, PasswordType  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/password.py", line 5, in <module>
+    from sqlalchemy.dialects import oracle, postgresql, sqlite
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/__init__.py", line 9, in <module>
+    from . import cx_oracle  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py", line 679, in <module>
+    class ReturningResultProxy(_result.FullyBufferedResultProxy):
+AttributeError: module 'sqlalchemy.engine.result' has no attribute 'FullyBufferedResultProxy'
+[2022-04-11 17:18:00,733] {logging_mixin.py:109} INFO - [2022-04-11 17:18:00,733] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:18:00,749] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:18:00,758] {logging_mixin.py:109} INFO - [2022-04-11 17:18:00,758] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:18:00,784] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.253 seconds
+[2022-04-11 17:22:50,348] {processor.py:163} INFO - Started process (PID=19432) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:22:50,349] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:22:50,350] {logging_mixin.py:109} INFO - [2022-04-11 17:22:50,350] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:22:50,404] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:22:50,413] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:22:50,823] {logging_mixin.py:109} INFO - [2022-04-11 17:22:50,823] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:22:50,840] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:22:50,856] {logging_mixin.py:109} INFO - [2022-04-11 17:22:50,856] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:22:50,879] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.535 seconds
+[2022-04-11 17:23:43,776] {processor.py:163} INFO - Started process (PID=19500) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:23:43,777] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:23:43,778] {logging_mixin.py:109} INFO - [2022-04-11 17:23:43,778] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:23:43,803] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:23:43,809] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:23:44,150] {logging_mixin.py:109} INFO - [2022-04-11 17:23:44,150] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:23:44,161] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:23:44,169] {logging_mixin.py:109} INFO - [2022-04-11 17:23:44,169] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:23:44,184] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.411 seconds
+[2022-04-11 17:24:34,270] {processor.py:163} INFO - Started process (PID=19534) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:24:34,270] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:24:34,271] {logging_mixin.py:109} INFO - [2022-04-11 17:24:34,271] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:24:34,297] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:24:34,302] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:24:34,581] {logging_mixin.py:109} INFO - [2022-04-11 17:24:34,581] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:24:34,590] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:24:34,598] {logging_mixin.py:109} INFO - [2022-04-11 17:24:34,598] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:24:34,613] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.346 seconds
+[2022-04-11 17:25:20,734] {processor.py:163} INFO - Started process (PID=19567) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:25:20,735] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:25:20,737] {logging_mixin.py:109} INFO - [2022-04-11 17:25:20,737] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:25:20,806] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:25:20,820] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:25:21,468] {logging_mixin.py:109} INFO - [2022-04-11 17:25:21,467] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:25:21,488] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:25:21,505] {logging_mixin.py:109} INFO - [2022-04-11 17:25:21,505] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:25:21,532] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.803 seconds
+[2022-04-11 17:26:24,197] {processor.py:163} INFO - Started process (PID=19606) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:26:24,197] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:26:24,198] {logging_mixin.py:109} INFO - [2022-04-11 17:26:24,198] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:26:24,222] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:26:24,228] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:26:24,537] {logging_mixin.py:109} INFO - [2022-04-11 17:26:24,537] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:26:24,550] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:26:24,558] {logging_mixin.py:109} INFO - [2022-04-11 17:26:24,558] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:26:24,572] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.378 seconds
+[2022-04-11 17:27:15,936] {processor.py:163} INFO - Started process (PID=19825) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:27:15,937] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:27:15,938] {logging_mixin.py:109} INFO - [2022-04-11 17:27:15,938] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:27:15,973] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:27:15,982] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:27:16,486] {logging_mixin.py:109} INFO - [2022-04-11 17:27:16,486] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:27:16,512] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:27:16,526] {logging_mixin.py:109} INFO - [2022-04-11 17:27:16,526] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:27:16,555] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.623 seconds
+[2022-04-11 17:28:07,000] {processor.py:163} INFO - Started process (PID=19859) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:28:07,001] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:28:07,001] {logging_mixin.py:109} INFO - [2022-04-11 17:28:07,001] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:28:07,025] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:28:07,029] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:28:07,321] {logging_mixin.py:109} INFO - [2022-04-11 17:28:07,320] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:28:07,333] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:28:07,342] {logging_mixin.py:109} INFO - [2022-04-11 17:28:07,341] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:28:07,357] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.360 seconds
+[2022-04-11 17:28:52,529] {processor.py:163} INFO - Started process (PID=19889) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:28:52,530] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:28:52,531] {logging_mixin.py:109} INFO - [2022-04-11 17:28:52,530] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:28:52,565] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:28:52,573] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:28:53,012] {logging_mixin.py:109} INFO - [2022-04-11 17:28:53,012] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:28:53,035] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:28:53,046] {logging_mixin.py:109} INFO - [2022-04-11 17:28:53,046] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:28:53,064] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.538 seconds
+[2022-04-11 17:29:54,552] {processor.py:163} INFO - Started process (PID=19933) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:29:54,553] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:29:54,553] {logging_mixin.py:109} INFO - [2022-04-11 17:29:54,553] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:29:54,579] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:29:54,584] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:29:54,865] {logging_mixin.py:109} INFO - [2022-04-11 17:29:54,865] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:29:54,875] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:29:54,882] {logging_mixin.py:109} INFO - [2022-04-11 17:29:54,882] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:29:54,897] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.348 seconds
+[2022-04-11 17:30:54,992] {processor.py:163} INFO - Started process (PID=19972) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:30:54,993] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:30:54,993] {logging_mixin.py:109} INFO - [2022-04-11 17:30:54,993] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:30:55,018] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:30:55,023] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:30:55,293] {logging_mixin.py:109} INFO - [2022-04-11 17:30:55,293] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:30:55,303] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:30:55,309] {logging_mixin.py:109} INFO - [2022-04-11 17:30:55,309] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:30:55,323] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.334 seconds
+[2022-04-11 17:31:54,947] {processor.py:163} INFO - Started process (PID=20015) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:31:54,948] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:31:54,949] {logging_mixin.py:109} INFO - [2022-04-11 17:31:54,949] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:31:54,978] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:31:54,984] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:31:55,343] {logging_mixin.py:109} INFO - [2022-04-11 17:31:55,343] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:31:55,358] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:31:55,368] {logging_mixin.py:109} INFO - [2022-04-11 17:31:55,368] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:31:55,386] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.442 seconds
+[2022-04-11 17:32:54,807] {processor.py:163} INFO - Started process (PID=20243) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:32:54,808] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:32:54,808] {logging_mixin.py:109} INFO - [2022-04-11 17:32:54,808] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:32:54,842] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:32:54,850] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:32:55,199] {logging_mixin.py:109} INFO - [2022-04-11 17:32:55,199] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:32:55,211] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:32:55,222] {logging_mixin.py:109} INFO - [2022-04-11 17:32:55,222] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:32:55,238] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.435 seconds
+[2022-04-11 17:33:55,705] {processor.py:163} INFO - Started process (PID=20354) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:33:55,705] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:33:55,706] {logging_mixin.py:109} INFO - [2022-04-11 17:33:55,705] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:33:55,728] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:33:55,732] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:33:56,002] {logging_mixin.py:109} INFO - [2022-04-11 17:33:56,002] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:33:56,012] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:33:56,019] {logging_mixin.py:109} INFO - [2022-04-11 17:33:56,019] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:33:56,033] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.331 seconds
+[2022-04-11 17:34:51,331] {processor.py:163} INFO - Started process (PID=20459) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:34:51,334] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:34:51,336] {logging_mixin.py:109} INFO - [2022-04-11 17:34:51,336] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:34:51,396] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:34:51,409] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:34:52,104] {logging_mixin.py:109} INFO - [2022-04-11 17:34:52,104] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:34:52,134] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:34:52,150] {logging_mixin.py:109} INFO - [2022-04-11 17:34:52,150] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:34:52,179] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.866 seconds
+[2022-04-11 17:35:38,673] {processor.py:163} INFO - Started process (PID=20489) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:35:38,673] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:35:38,674] {logging_mixin.py:109} INFO - [2022-04-11 17:35:38,674] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:35:38,706] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:35:38,712] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:35:39,202] {logging_mixin.py:109} INFO - [2022-04-11 17:35:39,201] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:35:39,224] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:35:39,236] {logging_mixin.py:109} INFO - [2022-04-11 17:35:39,236] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:35:39,259] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.590 seconds
+[2022-04-11 17:36:47,251] {processor.py:163} INFO - Started process (PID=20807) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:36:47,253] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:36:47,253] {logging_mixin.py:109} INFO - [2022-04-11 17:36:47,253] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:36:47,279] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:36:47,284] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:36:47,600] {logging_mixin.py:109} INFO - [2022-04-11 17:36:47,599] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:36:47,620] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:36:47,629] {logging_mixin.py:109} INFO - [2022-04-11 17:36:47,629] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:36:47,648] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.400 seconds
+[2022-04-11 17:38:09,729] {processor.py:163} INFO - Started process (PID=21015) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:38:09,735] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:38:09,736] {logging_mixin.py:109} INFO - [2022-04-11 17:38:09,736] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:38:09,812] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:38:09,835] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:38:10,549] {logging_mixin.py:109} INFO - [2022-04-11 17:38:10,549] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:38:10,572] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:38:10,589] {logging_mixin.py:109} INFO - [2022-04-11 17:38:10,589] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:38:10,611] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.885 seconds
+[2022-04-11 17:39:23,624] {processor.py:163} INFO - Started process (PID=21202) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:39:23,626] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:39:23,627] {logging_mixin.py:109} INFO - [2022-04-11 17:39:23,627] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:39:23,665] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:39:23,674] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:39:24,161] {logging_mixin.py:109} INFO - [2022-04-11 17:39:24,160] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:39:24,183] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:39:24,197] {logging_mixin.py:109} INFO - [2022-04-11 17:39:24,197] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:39:24,223] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.603 seconds
+[2022-04-11 17:40:16,605] {processor.py:163} INFO - Started process (PID=21242) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:40:16,605] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:40:16,606] {logging_mixin.py:109} INFO - [2022-04-11 17:40:16,606] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:40:16,634] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:40:16,640] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:40:16,961] {logging_mixin.py:109} INFO - [2022-04-11 17:40:16,961] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:40:16,972] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:40:16,979] {logging_mixin.py:109} INFO - [2022-04-11 17:40:16,979] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:40:16,996] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.394 seconds
+[2022-04-11 17:41:10,418] {processor.py:163} INFO - Started process (PID=21328) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:41:10,421] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:41:10,421] {logging_mixin.py:109} INFO - [2022-04-11 17:41:10,421] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:41:10,454] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:41:10,459] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:41:10,738] {logging_mixin.py:109} INFO - [2022-04-11 17:41:10,738] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:41:10,748] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:41:10,756] {logging_mixin.py:109} INFO - [2022-04-11 17:41:10,755] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:41:10,772] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.356 seconds
+[2022-04-11 17:42:04,434] {processor.py:163} INFO - Started process (PID=21642) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:42:04,436] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:42:04,437] {logging_mixin.py:109} INFO - [2022-04-11 17:42:04,437] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:42:04,467] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:42:04,474] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:42:04,801] {logging_mixin.py:109} INFO - [2022-04-11 17:42:04,801] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:42:04,813] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:42:04,822] {logging_mixin.py:109} INFO - [2022-04-11 17:42:04,822] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:42:04,836] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.405 seconds
+[2022-04-11 17:43:01,190] {processor.py:163} INFO - Started process (PID=21904) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:43:01,191] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:43:01,193] {logging_mixin.py:109} INFO - [2022-04-11 17:43:01,192] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:43:01,255] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:43:01,268] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:43:02,369] {logging_mixin.py:109} INFO - [2022-04-11 17:43:02,369] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:43:02,403] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:43:02,430] {logging_mixin.py:109} INFO - [2022-04-11 17:43:02,430] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:43:02,481] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.299 seconds
+[2022-04-11 17:43:54,079] {processor.py:163} INFO - Started process (PID=22143) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:43:54,080] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:43:54,080] {logging_mixin.py:109} INFO - [2022-04-11 17:43:54,080] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:43:54,127] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:43:54,135] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:43:54,606] {logging_mixin.py:109} INFO - [2022-04-11 17:43:54,605] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:43:54,619] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:43:54,628] {logging_mixin.py:109} INFO - [2022-04-11 17:43:54,628] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:43:54,645] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.569 seconds
+[2022-04-11 17:45:05,566] {processor.py:163} INFO - Started process (PID=22408) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:45:05,587] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-04-11 17:45:05,590] {logging_mixin.py:109} INFO - [2022-04-11 17:45:05,590] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:45:05,687] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-04-11 17:45:05,698] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:45:06,343] {logging_mixin.py:109} INFO - [2022-04-11 17:45:06,343] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:45:06,403] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:45:06,480] {logging_mixin.py:109} INFO - [2022-04-11 17:45:06,480] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-04-11 17:45:06,520] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.960 seconds

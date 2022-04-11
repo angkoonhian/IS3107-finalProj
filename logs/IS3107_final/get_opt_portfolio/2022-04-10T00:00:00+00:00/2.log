@@ -1,0 +1,206 @@
+[2022-04-11 17:02:54,423] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: IS3107_final.get_opt_portfolio scheduled__2022-04-10T00:00:00+00:00 [queued]>
+[2022-04-11 17:02:54,436] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: IS3107_final.get_opt_portfolio scheduled__2022-04-10T00:00:00+00:00 [queued]>
+[2022-04-11 17:02:54,442] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-11 17:02:54,442] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-04-11 17:02:54,442] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-11 17:02:54,468] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): get_opt_portfolio> on 2022-04-10 00:00:00+00:00
+[2022-04-11 17:02:54,473] {standard_task_runner.py:52} INFO - Started process 15138 to run task
+[2022-04-11 17:02:54,495] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'IS3107_final', 'get_opt_portfolio', 'scheduled__2022-04-10T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/dag_IS3107.py', '--cfg-path', '/tmp/tmptpdyfbop', '--error-file', '/tmp/tmpw8d8e7_n']
+[2022-04-11 17:02:54,496] {standard_task_runner.py:77} INFO - Job 4: Subtask get_opt_portfolio
+[2022-04-11 17:02:54,559] {logging_mixin.py:109} INFO - Running <TaskInstance: IS3107_final.get_opt_portfolio scheduled__2022-04-10T00:00:00+00:00 [running]> on host airflow-vm
+[2022-04-11 17:02:54,620] {taskinstance.py:1424} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=IS3107_final
+AIRFLOW_CTX_TASK_ID=get_opt_portfolio
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-10T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-10T00:00:00+00:00
+[2022-04-11 17:03:48,974] {logging_mixin.py:109} INFO -               U11.SI    D05.SI    C52.SI    BN4.SI    V03.SI   C38U.SI   A17U.SI    Z74.SI    O39.SI  ...   BUOU.SI    H78.SI    U14.SI    S68.SI    D01.SI    C6L.SI    S63.SI    C07.SI    J36.SI
+Date                                                                                                  ...                                                                                          
+2021-04-13  0.000769  0.005228  0.017143  0.011029 -0.002466  0.013889  0.006536 -0.008230  0.003390  ...  0.000000 -0.004016  0.020645  0.020080 -0.002353 -0.012500  0.007557  0.004310  0.010875
+2021-04-14 -0.003072 -0.005201 -0.011236 -0.009091  0.009886  0.000000  0.000000  0.004149 -0.003378  ...  0.000000  0.000000 -0.010114  0.013780 -0.004717 -0.005425 -0.002500  0.000000 -0.003074
+2021-04-15  0.005008  0.009062  0.011364 -0.003670  0.002937  0.004566  0.006493  0.004132  0.004237  ...  0.000000  0.004032 -0.003831 -0.003883 -0.009479 -0.029091 -0.002506 -0.003004 -0.007708
+2021-04-16  0.001916  0.001727  0.005618  0.000000 -0.004880  0.000000  0.003226  0.049383  0.008439  ...  0.000000  0.004016  0.006410  0.008772  0.009569  0.011236  0.000000  0.000000  0.009787
+2021-04-19  0.003443  0.000690  0.011173  0.016575 -0.000981  0.000000 -0.003215  0.019608  0.000837  ...  0.000000  0.000000  0.008917  0.023188  0.002370 -0.031481  0.010050  0.013345 -0.006308
+...              ...       ...       ...       ...       ...       ...       ...       ...       ...  ...       ...       ...       ...       ...       ...       ...       ...       ...       ...
+2022-04-05  0.006612  0.010695  0.006711  0.007728  0.006807  0.008772  0.010239  0.007576  0.002431  ...  0.000000  0.023622  0.014006  0.007984 -0.009934  0.007246  0.002421  0.017186 -0.005944
+2022-04-06 -0.006881 -0.004456 -0.013333 -0.003067 -0.010704 -0.021739 -0.003378  0.000000 -0.003234  ... -0.033557 -0.023077  0.004144 -0.005941  0.000000 -0.021583 -0.014493  0.005108  0.005452
+2022-04-07  0.000000 -0.011748  0.000000  0.001538 -0.010820  0.004444 -0.013559  0.000000 -0.005677  ...  0.006944 -0.013779 -0.006878 -0.005976 -0.003344 -0.007353 -0.007353 -0.007037 -0.004373
+2022-04-08 -0.005354 -0.017158 -0.006757  0.010753 -0.001151  0.000000  0.000000 -0.003759 -0.004894  ...  0.006897 -0.015968 -0.008310  0.000000 -0.033557  0.005556  0.012346  0.008268 -0.001230
+2022-04-11 -0.002533 -0.009310  0.006803  0.007599 -0.010375  0.004425 -0.006873 -0.003774 -0.004918  ... -0.006849 -0.002028 -0.008380 -0.006012 -0.020833 -0.011050 -0.012195 -0.007809 -0.011434
+
+[253 rows x 30 columns]
+[2022-04-11 17:03:48,975] {logging_mixin.py:109} INFO - ??
+[2022-04-11 17:03:48,975] {logging_mixin.py:109} INFO - 30
+[2022-04-11 17:03:48,977] {logging_mixin.py:109} INFO - [[ 0.00076873 -0.00307232  0.00500778 ...  0.         -0.00535433
+  -0.00253325]
+ [ 0.00522834 -0.00520115  0.00906238 ... -0.01174819 -0.01715763
+  -0.00931044]
+ [ 0.01714278 -0.01123595  0.01136363 ...  0.         -0.00675675
+   0.00680271]
+ ...
+ [ 0.00755669 -0.00249998 -0.00250631 ... -0.00735288  0.01234561
+  -0.01219505]
+ [ 0.00431028  0.         -0.00300423 ... -0.00703676  0.00826776
+  -0.00780948]
+ [ 0.0108746  -0.00307364 -0.00770767 ... -0.00437292 -0.00122979
+  -0.01143356]]
+[2022-04-11 17:03:48,977] {logging_mixin.py:109} INFO - var1
+[2022-04-11 17:03:48,978] {logging_mixin.py:109} INFO - return in simple returns
+[2022-04-11 17:03:49,048] {logging_mixin.py:109} INFO -               U11.SI    D05.SI    C52.SI    BN4.SI    V03.SI   C38U.SI   A17U.SI    Z74.SI    O39.SI  ...   BUOU.SI    H78.SI    U14.SI    S68.SI    D01.SI    C6L.SI    S63.SI    C07.SI    J36.SI
+Date                                                                                                  ...                                                                                          
+2021-04-13  0.000769  0.005228  0.017143  0.011029 -0.002466  0.013889  0.006536 -0.008230  0.003390  ...  0.000000 -0.004016  0.020645  0.020080 -0.002353 -0.012500  0.007557  0.004310  0.010875
+2021-04-14 -0.003072 -0.005201 -0.011236 -0.009091  0.009886  0.000000  0.000000  0.004149 -0.003378  ...  0.000000  0.000000 -0.010114  0.013780 -0.004717 -0.005425 -0.002500  0.000000 -0.003074
+2021-04-15  0.005008  0.009062  0.011364 -0.003670  0.002937  0.004566  0.006493  0.004132  0.004237  ...  0.000000  0.004032 -0.003831 -0.003883 -0.009479 -0.029091 -0.002506 -0.003004 -0.007708
+2021-04-16  0.001916  0.001727  0.005618  0.000000 -0.004880  0.000000  0.003226  0.049383  0.008439  ...  0.000000  0.004016  0.006410  0.008772  0.009569  0.011236  0.000000  0.000000  0.009787
+2021-04-19  0.003443  0.000690  0.011173  0.016575 -0.000981  0.000000 -0.003215  0.019608  0.000837  ...  0.000000  0.000000  0.008917  0.023188  0.002370 -0.031481  0.010050  0.013345 -0.006308
+...              ...       ...       ...       ...       ...       ...       ...       ...       ...  ...       ...       ...       ...       ...       ...       ...       ...       ...       ...
+2022-04-05  0.006612  0.010695  0.006711  0.007728  0.006807  0.008772  0.010239  0.007576  0.002431  ...  0.000000  0.023622  0.014006  0.007984 -0.009934  0.007246  0.002421  0.017186 -0.005944
+2022-04-06 -0.006881 -0.004456 -0.013333 -0.003067 -0.010704 -0.021739 -0.003378  0.000000 -0.003234  ... -0.033557 -0.023077  0.004144 -0.005941  0.000000 -0.021583 -0.014493  0.005108  0.005452
+2022-04-07  0.000000 -0.011748  0.000000  0.001538 -0.010820  0.004444 -0.013559  0.000000 -0.005677  ...  0.006944 -0.013779 -0.006878 -0.005976 -0.003344 -0.007353 -0.007353 -0.007037 -0.004373
+2022-04-08 -0.005354 -0.017158 -0.006757  0.010753 -0.001151  0.000000  0.000000 -0.003759 -0.004894  ...  0.006897 -0.015968 -0.008310  0.000000 -0.033557  0.005556  0.012346  0.008268 -0.001230
+2022-04-11 -0.002533 -0.009310  0.006803  0.007599 -0.010375  0.004425 -0.006873 -0.003774 -0.004918  ... -0.006849 -0.002028 -0.008380 -0.006012 -0.020833 -0.011050 -0.012195 -0.007809 -0.011434
+
+[253 rows x 30 columns]
+[2022-04-11 17:03:49,049] {logging_mixin.py:109} INFO - return in log returns
+[2022-04-11 17:03:49,123] {logging_mixin.py:109} INFO -               U11.SI    D05.SI    C52.SI    BN4.SI    V03.SI   C38U.SI   A17U.SI    Z74.SI    O39.SI  ...   BUOU.SI    H78.SI    U14.SI    S68.SI    D01.SI    C6L.SI    S63.SI    C07.SI    J36.SI
+Date                                                                                                  ...                                                                                          
+2021-04-13  0.000768  0.005215  0.016998  0.010969 -0.002469  0.013793  0.006515 -0.008264  0.003384  ...  0.000000 -0.004024  0.020435  0.019881 -0.002356 -0.012579  0.007528  0.004301  0.010816
+2021-04-14 -0.003077 -0.005215 -0.011300 -0.009133  0.009838  0.000000  0.000000  0.004141 -0.003384  ...  0.000000  0.000000 -0.010165  0.013685 -0.004728 -0.005440 -0.002503  0.000000 -0.003078
+2021-04-15  0.004995  0.009022  0.011300 -0.003676  0.002932  0.004556  0.006473  0.004124  0.004228  ...  0.000000  0.004024 -0.003839 -0.003891 -0.009524 -0.029522 -0.002509 -0.003009 -0.007738
+2021-04-16  0.001915  0.001726  0.005602  0.000000 -0.004892  0.000000  0.003221  0.048202  0.008403  ...  0.000000  0.004008  0.006390  0.008734  0.009524  0.011173  0.000000  0.000000  0.009740
+2021-04-19  0.003437  0.000689  0.011111  0.016439 -0.000981  0.000000 -0.003221  0.019418  0.000837  ...  0.000000  0.000000  0.008878  0.022924  0.002367 -0.031988  0.010000  0.013257 -0.006328
+...              ...       ...       ...       ...       ...       ...       ...       ...       ...  ...       ...       ...       ...       ...       ...       ...       ...       ...       ...
+2022-04-05  0.006590  0.010638  0.006689  0.007698  0.006784  0.008734  0.010187  0.007547  0.002428  ...  0.000000  0.023347  0.013908  0.007952 -0.009983  0.007220  0.002418  0.017040 -0.005962
+2022-04-06 -0.006905 -0.004466 -0.013423 -0.003072 -0.010762 -0.021979 -0.003384  0.000000 -0.003239  ... -0.034133 -0.023347  0.004135 -0.005958  0.000000 -0.021819 -0.014599  0.005095  0.005437
+2022-04-07  0.000000 -0.011818  0.000000  0.001537 -0.010879  0.004435 -0.013652  0.000000 -0.005693  ...  0.006920 -0.013875 -0.006901 -0.005994 -0.003350 -0.007380 -0.007380 -0.007062 -0.004383
+2022-04-08 -0.005369 -0.017307 -0.006780  0.010695 -0.001152  0.000000  0.000000 -0.003766 -0.004906  ...  0.006873 -0.016097 -0.008345  0.000000 -0.034133  0.005540  0.012270  0.008234 -0.001231
+2022-04-11 -0.002536 -0.009354  0.006780  0.007570 -0.010429  0.004415 -0.006897 -0.003781 -0.004930  ... -0.006873 -0.002030 -0.008415 -0.006030 -0.021053 -0.011111 -0.012270 -0.007840 -0.011499
+
+[253 rows x 30 columns]
+[2022-04-11 17:03:49,125] {logging_mixin.py:109} INFO - total return in log
+[2022-04-11 17:03:49,126] {logging_mixin.py:109} INFO - [ 0.22861941  0.20848088 -0.14595478  0.23249349 -0.12737588  0.10004323
+ -0.0045759   0.11220881  0.06195824 -0.08005437  0.6988399  -0.13226125
+  0.00965364 -0.15500784  0.0205785  -0.02491282  0.44642107  0.3144395
+  0.23769176 -0.12139575 -0.00465117  0.03878302  0.00199657 -0.06845261
+  0.0282669  -0.40137141 -0.04193869  0.05784776  0.11555069 -0.1279337 ]
+[2022-04-11 17:03:49,127] {logging_mixin.py:109} INFO - total simple return
+[2022-04-11 17:03:49,127] {logging_mixin.py:109} INFO - [ 0.25686359  0.23180538 -0.13580322  0.26174223 -0.11959732  0.10521869
+ -0.00456544  0.11874645  0.06391792 -0.07693385  1.0114179  -0.12388792
+  0.00970039 -0.14359153  0.0207917  -0.02460505  0.56270933  0.36949149
+  0.26831819 -0.11431662 -0.00464037  0.0395449   0.00199856 -0.06616229
+  0.0286702  -0.33059861 -0.04107143  0.05955368  0.12249141 -0.12008828]
+[2022-04-11 17:03:49,127] {logging_mixin.py:109} INFO - geometric return
+[2022-04-11 17:03:49,128] {logging_mixin.py:109} INFO - [ 9.04042420e-04  8.24374719e-04 -5.76729982e-04  9.19368952e-04
+ -5.03335264e-04  3.95505968e-04 -1.80863816e-05  4.43611465e-04
+  2.44924234e-04 -3.16370393e-04  2.76603146e-03 -5.22635128e-04
+  3.81574227e-05 -6.12491547e-04  8.13412608e-05 -9.84647789e-05
+  1.76606781e-03  1.24361651e-03  9.39934583e-04 -4.79709988e-04
+ -1.83838895e-05  1.53304318e-04  7.89159922e-06 -2.70527077e-04
+  1.11733130e-04 -1.58519053e-03 -1.65751849e-04  2.28673424e-04
+  4.56826410e-04 -5.05538959e-04]
+[2022-04-11 17:03:49,202] {python.py:175} INFO - Done. Returned value was: U11.SI    -0.00
+D05.SI     0.04
+C52.SI     0.00
+BN4.SI    -0.00
+V03.SI     0.01
+C38U.SI   -0.00
+A17U.SI   -0.00
+Z74.SI     0.06
+O39.SI     0.00
+N2IU.SI   -0.00
+Y92.SI    -0.00
+F34.SI     0.00
+ME8U.SI    0.19
+AJBU.SI    0.16
+C09.SI     0.00
+M44U.SI   -0.00
+U96.SI     0.00
+9CI.SI     0.08
+BS6.SI     0.00
+G13.SI    -0.00
+S58.SI     0.01
+BUOU.SI    0.03
+H78.SI     0.04
+U14.SI     0.01
+S68.SI     0.06
+D01.SI     0.00
+C6L.SI     0.00
+S63.SI     0.18
+C07.SI     0.05
+J36.SI     0.06
+dtype: float64
+[2022-04-11 17:03:49,206] {xcom.py:333} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your airflow config.
+[2022-04-11 17:03:49,206] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2135, in xcom_push
+    XCom.set(
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/xcom.py", line 100, in set
+    value = XCom.serialize_value(value)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/xcom.py", line 331, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/lib/python3.8/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Series is not JSON serializable
+[2022-04-11 17:03:49,217] {taskinstance.py:1267} INFO - Marking task as FAILED. dag_id=IS3107_final, task_id=get_opt_portfolio, execution_date=20220410T000000, start_date=20220411T170254, end_date=20220411T170349
+[2022-04-11 17:03:49,236] {standard_task_runner.py:89} ERROR - Failed to execute job 4 for task get_opt_portfolio
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2135, in xcom_push
+    XCom.set(
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/xcom.py", line 100, in set
+    value = XCom.serialize_value(value)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/xcom.py", line 331, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/lib/python3.8/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Series is not JSON serializable
+[2022-04-11 17:03:49,268] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-11 17:03:49,292] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

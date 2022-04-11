@@ -1,0 +1,3 @@
+[airflow.plugins]
+airflow_code_editor = airflow_code_editor.airflow_code_editor:CodeEditorPlugin
+

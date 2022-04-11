@@ -1,0 +1,674 @@
+[2022-04-11 16:42:00,939] {processor.py:163} INFO - Started process (PID=9916) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:42:00,940] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:42:00,940] {logging_mixin.py:109} INFO - [2022-04-11 16:42:00,940] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:42:00,962] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:42:01,141] {logging_mixin.py:109} INFO - [2022-04-11 16:42:01,141] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:42:01,151] {logging_mixin.py:109} INFO - [2022-04-11 16:42:01,151] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:42:01,163] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.226 seconds
+[2022-04-11 16:42:36,927] {processor.py:163} INFO - Started process (PID=10034) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:42:36,930] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:42:36,931] {logging_mixin.py:109} INFO - [2022-04-11 16:42:36,931] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:42:36,996] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:42:37,506] {logging_mixin.py:109} INFO - [2022-04-11 16:42:37,506] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:42:37,532] {logging_mixin.py:109} INFO - [2022-04-11 16:42:37,532] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:42:37,552] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.630 seconds
+[2022-04-11 16:43:16,191] {processor.py:163} INFO - Started process (PID=10203) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:43:16,193] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:43:16,193] {logging_mixin.py:109} INFO - [2022-04-11 16:43:16,193] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:43:16,220] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:43:16,468] {logging_mixin.py:109} INFO - [2022-04-11 16:43:16,468] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:43:16,482] {logging_mixin.py:109} INFO - [2022-04-11 16:43:16,482] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:43:16,494] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.308 seconds
+[2022-04-11 16:43:55,601] {processor.py:163} INFO - Started process (PID=10401) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:43:55,603] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:43:55,603] {logging_mixin.py:109} INFO - [2022-04-11 16:43:55,603] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:43:55,626] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:43:55,806] {logging_mixin.py:109} INFO - [2022-04-11 16:43:55,806] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:43:55,817] {logging_mixin.py:109} INFO - [2022-04-11 16:43:55,817] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:43:55,828] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.229 seconds
+[2022-04-11 16:44:34,109] {processor.py:163} INFO - Started process (PID=10526) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:44:34,111] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:44:34,111] {logging_mixin.py:109} INFO - [2022-04-11 16:44:34,111] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:44:34,139] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:44:34,374] {logging_mixin.py:109} INFO - [2022-04-11 16:44:34,374] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:44:34,389] {logging_mixin.py:109} INFO - [2022-04-11 16:44:34,388] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:44:34,403] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.296 seconds
+[2022-04-11 16:45:15,646] {processor.py:163} INFO - Started process (PID=10724) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:45:15,647] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:45:15,648] {logging_mixin.py:109} INFO - [2022-04-11 16:45:15,647] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:45:15,674] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:45:15,873] {logging_mixin.py:109} INFO - [2022-04-11 16:45:15,872] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:45:15,886] {logging_mixin.py:109} INFO - [2022-04-11 16:45:15,885] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:45:15,898] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.256 seconds
+[2022-04-11 16:45:53,004] {processor.py:163} INFO - Started process (PID=10822) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:45:53,005] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:45:53,006] {logging_mixin.py:109} INFO - [2022-04-11 16:45:53,006] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:45:53,033] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:45:53,263] {logging_mixin.py:109} INFO - [2022-04-11 16:45:53,263] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:45:53,276] {logging_mixin.py:109} INFO - [2022-04-11 16:45:53,276] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:45:53,290] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.291 seconds
+[2022-04-11 16:46:34,751] {processor.py:163} INFO - Started process (PID=11012) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:46:34,753] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:46:34,754] {logging_mixin.py:109} INFO - [2022-04-11 16:46:34,754] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:46:34,805] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:46:35,232] {logging_mixin.py:109} INFO - [2022-04-11 16:46:35,232] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:46:35,252] {logging_mixin.py:109} INFO - [2022-04-11 16:46:35,252] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:46:35,269] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.523 seconds
+[2022-04-11 16:47:15,847] {processor.py:163} INFO - Started process (PID=11290) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:47:15,848] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:47:15,848] {logging_mixin.py:109} INFO - [2022-04-11 16:47:15,848] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:47:15,870] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:47:16,067] {logging_mixin.py:109} INFO - [2022-04-11 16:47:16,067] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:47:16,076] {logging_mixin.py:109} INFO - [2022-04-11 16:47:16,076] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:47:16,088] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.243 seconds
+[2022-04-11 16:47:56,726] {processor.py:163} INFO - Started process (PID=11496) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:47:56,731] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:47:56,731] {logging_mixin.py:109} INFO - [2022-04-11 16:47:56,731] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:47:56,800] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:47:57,282] {logging_mixin.py:109} INFO - [2022-04-11 16:47:57,282] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:47:57,296] {logging_mixin.py:109} INFO - [2022-04-11 16:47:57,296] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:47:57,310] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.591 seconds
+[2022-04-11 16:48:40,728] {processor.py:163} INFO - Started process (PID=11724) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:48:40,730] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:48:40,730] {logging_mixin.py:109} INFO - [2022-04-11 16:48:40,730] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:48:40,756] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:48:41,005] {logging_mixin.py:109} INFO - [2022-04-11 16:48:41,004] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:48:41,017] {logging_mixin.py:109} INFO - [2022-04-11 16:48:41,017] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:48:41,031] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.305 seconds
+[2022-04-11 16:49:26,877] {processor.py:163} INFO - Started process (PID=11989) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:49:26,879] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:49:26,879] {logging_mixin.py:109} INFO - [2022-04-11 16:49:26,879] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:49:26,907] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:49:27,126] {logging_mixin.py:109} INFO - [2022-04-11 16:49:27,126] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:49:27,136] {logging_mixin.py:109} INFO - [2022-04-11 16:49:27,136] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:49:27,146] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.272 seconds
+[2022-04-11 16:50:18,620] {processor.py:163} INFO - Started process (PID=12253) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:50:18,621] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:50:18,622] {logging_mixin.py:109} INFO - [2022-04-11 16:50:18,622] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:50:18,655] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:50:18,986] {logging_mixin.py:109} INFO - [2022-04-11 16:50:18,986] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:50:19,002] {logging_mixin.py:109} INFO - [2022-04-11 16:50:19,002] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:50:19,016] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.399 seconds
+[2022-04-11 16:51:09,397] {processor.py:163} INFO - Started process (PID=12548) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:51:09,398] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:51:09,398] {logging_mixin.py:109} INFO - [2022-04-11 16:51:09,398] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:51:09,427] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:51:09,656] {logging_mixin.py:109} INFO - [2022-04-11 16:51:09,656] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:51:09,668] {logging_mixin.py:109} INFO - [2022-04-11 16:51:09,667] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:51:09,682] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.288 seconds
+[2022-04-11 16:51:48,862] {processor.py:163} INFO - Started process (PID=12708) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:51:48,865] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:51:48,866] {logging_mixin.py:109} INFO - [2022-04-11 16:51:48,866] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:51:48,943] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:51:49,476] {logging_mixin.py:109} INFO - [2022-04-11 16:51:49,476] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:51:49,495] {logging_mixin.py:109} INFO - [2022-04-11 16:51:49,495] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:51:49,514] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.659 seconds
+[2022-04-11 16:52:29,754] {processor.py:163} INFO - Started process (PID=12746) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:52:29,755] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:52:29,756] {logging_mixin.py:109} INFO - [2022-04-11 16:52:29,755] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:52:29,792] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:52:30,161] {logging_mixin.py:109} INFO - [2022-04-11 16:52:30,160] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:52:30,182] {logging_mixin.py:109} INFO - [2022-04-11 16:52:30,181] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:52:30,199] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.449 seconds
+[2022-04-11 16:53:09,659] {processor.py:163} INFO - Started process (PID=12846) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:53:09,671] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:53:09,672] {logging_mixin.py:109} INFO - [2022-04-11 16:53:09,671] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:53:09,785] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:53:10,534] {logging_mixin.py:109} INFO - [2022-04-11 16:53:10,534] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:53:10,555] {logging_mixin.py:109} INFO - [2022-04-11 16:53:10,555] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:53:10,581] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.927 seconds
+[2022-04-11 16:53:49,838] {processor.py:163} INFO - Started process (PID=12945) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:53:49,839] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:53:49,839] {logging_mixin.py:109} INFO - [2022-04-11 16:53:49,839] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:53:49,863] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:53:50,058] {logging_mixin.py:109} INFO - [2022-04-11 16:53:50,058] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:53:50,068] {logging_mixin.py:109} INFO - [2022-04-11 16:53:50,068] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:53:50,081] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.246 seconds
+[2022-04-11 16:54:29,237] {processor.py:163} INFO - Started process (PID=13006) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:54:29,238] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:54:29,239] {logging_mixin.py:109} INFO - [2022-04-11 16:54:29,238] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:54:29,262] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:54:29,451] {logging_mixin.py:109} INFO - [2022-04-11 16:54:29,451] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:54:29,460] {logging_mixin.py:109} INFO - [2022-04-11 16:54:29,460] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:54:29,471] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.237 seconds
+[2022-04-11 16:55:19,305] {processor.py:163} INFO - Started process (PID=13114) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:55:19,306] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:55:19,306] {logging_mixin.py:109} INFO - [2022-04-11 16:55:19,306] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:55:19,335] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:55:19,564] {logging_mixin.py:109} INFO - [2022-04-11 16:55:19,564] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:55:19,575] {logging_mixin.py:109} INFO - [2022-04-11 16:55:19,574] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:55:19,587] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.286 seconds
+[2022-04-11 16:56:05,667] {processor.py:163} INFO - Started process (PID=13279) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:56:05,668] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:56:05,668] {logging_mixin.py:109} INFO - [2022-04-11 16:56:05,668] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:56:05,691] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:56:05,882] {logging_mixin.py:109} INFO - [2022-04-11 16:56:05,882] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:56:05,892] {logging_mixin.py:109} INFO - [2022-04-11 16:56:05,891] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:56:05,901] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.237 seconds
+[2022-04-11 16:56:54,008] {processor.py:163} INFO - Started process (PID=13471) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:56:54,010] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:56:54,010] {logging_mixin.py:109} INFO - [2022-04-11 16:56:54,010] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:56:54,042] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:56:54,310] {logging_mixin.py:109} INFO - [2022-04-11 16:56:54,310] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:56:54,326] {logging_mixin.py:109} INFO - [2022-04-11 16:56:54,326] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:56:54,341] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.336 seconds
+[2022-04-11 16:57:41,619] {processor.py:163} INFO - Started process (PID=13513) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:57:41,620] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:57:41,620] {logging_mixin.py:109} INFO - [2022-04-11 16:57:41,620] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:57:41,642] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:57:41,822] {logging_mixin.py:109} INFO - [2022-04-11 16:57:41,822] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:57:41,833] {logging_mixin.py:109} INFO - [2022-04-11 16:57:41,833] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:57:41,845] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.228 seconds
+[2022-04-11 16:58:22,046] {processor.py:163} INFO - Started process (PID=13551) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:58:22,048] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:58:22,048] {logging_mixin.py:109} INFO - [2022-04-11 16:58:22,048] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:58:22,071] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:58:22,260] {logging_mixin.py:109} INFO - [2022-04-11 16:58:22,260] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:58:22,270] {logging_mixin.py:109} INFO - [2022-04-11 16:58:22,270] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:58:22,282] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.238 seconds
+[2022-04-11 16:59:05,544] {processor.py:163} INFO - Started process (PID=13588) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:59:05,546] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 16:59:05,547] {logging_mixin.py:109} INFO - [2022-04-11 16:59:05,546] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:59:05,578] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 16:59:05,998] {logging_mixin.py:109} INFO - [2022-04-11 16:59:05,998] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 16:59:06,016] {logging_mixin.py:109} INFO - [2022-04-11 16:59:06,016] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 16:59:06,039] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.499 seconds
+[2022-04-11 17:00:05,011] {processor.py:163} INFO - Started process (PID=13761) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:00:05,013] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:00:05,013] {logging_mixin.py:109} INFO - [2022-04-11 17:00:05,013] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:00:05,042] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:00:05,264] {logging_mixin.py:109} INFO - [2022-04-11 17:00:05,264] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:00:05,276] {logging_mixin.py:109} INFO - [2022-04-11 17:00:05,276] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:00:05,288] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.280 seconds
+[2022-04-11 17:01:00,332] {processor.py:163} INFO - Started process (PID=14010) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:01:00,335] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:01:00,336] {logging_mixin.py:109} INFO - [2022-04-11 17:01:00,335] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:01:00,392] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:01:01,636] {logging_mixin.py:109} INFO - [2022-04-11 17:01:01,635] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:01:01,676] {logging_mixin.py:109} INFO - [2022-04-11 17:01:01,675] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:01:01,711] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.385 seconds
+[2022-04-11 17:02:32,280] {processor.py:163} INFO - Started process (PID=14930) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:02:32,282] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:02:32,283] {logging_mixin.py:109} INFO - [2022-04-11 17:02:32,283] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:02:32,324] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:02:32,826] {logging_mixin.py:109} INFO - [2022-04-11 17:02:32,826] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:02:32,844] {logging_mixin.py:109} INFO - [2022-04-11 17:02:32,844] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:02:32,864] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.587 seconds
+[2022-04-11 17:04:38,506] {processor.py:163} INFO - Started process (PID=15830) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:04:38,507] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:04:38,508] {logging_mixin.py:109} INFO - [2022-04-11 17:04:38,508] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:04:38,545] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:04:38,942] {logging_mixin.py:109} INFO - [2022-04-11 17:04:38,942] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:04:38,955] {logging_mixin.py:109} INFO - [2022-04-11 17:04:38,955] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:04:38,970] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.470 seconds
+[2022-04-11 17:05:35,651] {processor.py:163} INFO - Started process (PID=16017) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:05:35,653] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:05:35,653] {logging_mixin.py:109} INFO - [2022-04-11 17:05:35,653] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:05:35,682] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:05:36,022] {logging_mixin.py:109} INFO - [2022-04-11 17:05:36,022] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:05:36,033] {logging_mixin.py:109} INFO - [2022-04-11 17:05:36,033] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:05:36,046] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.398 seconds
+[2022-04-11 17:07:08,012] {processor.py:163} INFO - Started process (PID=16434) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:07:08,014] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:07:08,014] {logging_mixin.py:109} INFO - [2022-04-11 17:07:08,014] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:07:08,043] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:07:08,173] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:07:08,176] {logging_mixin.py:109} INFO - [2022-04-11 17:07:08,173] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:07:08,177] {logging_mixin.py:109} INFO - [2022-04-11 17:07:08,176] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:07:08,193] {logging_mixin.py:109} INFO - [2022-04-11 17:07:08,193] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:07:08,219] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.211 seconds
+[2022-04-11 17:08:24,090] {processor.py:163} INFO - Started process (PID=16582) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:08:24,091] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:08:24,092] {logging_mixin.py:109} INFO - [2022-04-11 17:08:24,092] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:08:24,121] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:08:24,273] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:08:24,276] {logging_mixin.py:109} INFO - [2022-04-11 17:08:24,273] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:08:24,277] {logging_mixin.py:109} INFO - [2022-04-11 17:08:24,276] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:08:24,290] {logging_mixin.py:109} INFO - [2022-04-11 17:08:24,290] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:08:24,312] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.225 seconds
+[2022-04-11 17:09:17,878] {processor.py:163} INFO - Started process (PID=16721) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:09:17,879] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:09:17,880] {logging_mixin.py:109} INFO - [2022-04-11 17:09:17,879] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:09:17,902] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:09:18,008] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:09:18,014] {logging_mixin.py:109} INFO - [2022-04-11 17:09:18,008] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:09:18,014] {logging_mixin.py:109} INFO - [2022-04-11 17:09:18,014] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:09:18,026] {logging_mixin.py:109} INFO - [2022-04-11 17:09:18,026] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:09:18,044] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.169 seconds
+[2022-04-11 17:10:14,570] {processor.py:163} INFO - Started process (PID=16967) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:10:14,572] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:10:14,572] {logging_mixin.py:109} INFO - [2022-04-11 17:10:14,572] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:10:14,595] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:10:14,694] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:10:14,696] {logging_mixin.py:109} INFO - [2022-04-11 17:10:14,694] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:10:14,697] {logging_mixin.py:109} INFO - [2022-04-11 17:10:14,697] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:10:14,706] {logging_mixin.py:109} INFO - [2022-04-11 17:10:14,706] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:10:14,724] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.156 seconds
+[2022-04-11 17:11:10,285] {processor.py:163} INFO - Started process (PID=17199) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:11:10,286] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:11:10,287] {logging_mixin.py:109} INFO - [2022-04-11 17:11:10,287] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:11:10,310] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:11:10,417] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:11:10,419] {logging_mixin.py:109} INFO - [2022-04-11 17:11:10,417] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 15, in <module>
+    from marshmallow_sqlalchemy.fields import Related, RelatedList
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/__init__.py", line 1, in <module>
+    from .schema import (
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/schema.py", line 6, in <module>
+    from .convert import ModelConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/marshmallow_sqlalchemy/convert.py", line 9, in <module>
+    from sqlalchemy.dialects import postgresql, mysql, mssql
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/__init__.py", line 8, in <module>
+    from . import base  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/mysql/base.py", line 1027, in <module>
+    from ...sql import coercions
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 14, in <module>
+    from .base import ExecutableOption
+ImportError: cannot import name 'ExecutableOption' from 'sqlalchemy.sql.base' (/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/base.py)
+[2022-04-11 17:11:10,420] {logging_mixin.py:109} INFO - [2022-04-11 17:11:10,420] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:11:10,430] {logging_mixin.py:109} INFO - [2022-04-11 17:11:10,430] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:11:10,447] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.165 seconds
+[2022-04-11 17:12:57,451] {processor.py:163} INFO - Started process (PID=17828) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:12:57,454] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:12:57,454] {logging_mixin.py:109} INFO - [2022-04-11 17:12:57,454] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:12:57,510] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:12:57,518] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:12:57,975] {logging_mixin.py:109} INFO - [2022-04-11 17:12:57,975] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:12:58,087] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:12:58,099] {logging_mixin.py:109} INFO - [2022-04-11 17:12:58,098] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:12:58,122] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.675 seconds
+[2022-04-11 17:13:58,765] {processor.py:163} INFO - Started process (PID=17973) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:13:58,954] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:13:58,955] {logging_mixin.py:109} INFO - [2022-04-11 17:13:58,954] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:13:59,026] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:13:59,037] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:13:59,803] {logging_mixin.py:109} INFO - [2022-04-11 17:13:59,803] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:13:59,917] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:13:59,928] {logging_mixin.py:109} INFO - [2022-04-11 17:13:59,928] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:14:00,048] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.295 seconds
+[2022-04-11 17:14:49,550] {processor.py:163} INFO - Started process (PID=18198) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:14:49,550] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:14:49,551] {logging_mixin.py:109} INFO - [2022-04-11 17:14:49,551] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:14:49,590] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:14:49,597] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:14:49,990] {logging_mixin.py:109} INFO - [2022-04-11 17:14:49,990] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:14:50,004] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:14:50,017] {logging_mixin.py:109} INFO - [2022-04-11 17:14:50,017] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:14:50,036] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.490 seconds
+[2022-04-11 17:16:00,070] {processor.py:163} INFO - Started process (PID=18329) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:16:00,071] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:16:00,071] {logging_mixin.py:109} INFO - [2022-04-11 17:16:00,071] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:16:00,107] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:16:00,113] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:16:00,467] {logging_mixin.py:109} INFO - [2022-04-11 17:16:00,466] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:16:00,477] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:16:00,486] {logging_mixin.py:109} INFO - [2022-04-11 17:16:00,486] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:16:00,500] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.434 seconds
+[2022-04-11 17:17:10,627] {processor.py:163} INFO - Started process (PID=18644) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:17:10,629] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:17:10,630] {logging_mixin.py:109} INFO - [2022-04-11 17:17:10,630] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:17:10,661] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:17:10,668] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:17:10,798] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:17:10,800] {logging_mixin.py:109} INFO - [2022-04-11 17:17:10,798] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 21, in <module>
+    from .convert import Model2SchemaConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/convert.py", line 4, in <module>
+    from flask_appbuilder.models.sqla.interface import SQLAInterface
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/models/sqla/interface.py", line 16, in <module>
+    from sqlalchemy_utils.types.uuid import UUIDType
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/__init__.py", line 59, in <module>
+    from .types import (  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/__init__.py", line 20, in <module>
+    from .password import Password, PasswordType  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/password.py", line 5, in <module>
+    from sqlalchemy.dialects import oracle, postgresql, sqlite
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/__init__.py", line 9, in <module>
+    from . import cx_oracle  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py", line 679, in <module>
+    class ReturningResultProxy(_result.FullyBufferedResultProxy):
+AttributeError: module 'sqlalchemy.engine.result' has no attribute 'FullyBufferedResultProxy'
+[2022-04-11 17:17:10,801] {logging_mixin.py:109} INFO - [2022-04-11 17:17:10,801] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:17:10,814] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:17:10,823] {logging_mixin.py:109} INFO - [2022-04-11 17:17:10,823] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:17:10,849] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.225 seconds
+[2022-04-11 17:18:06,860] {processor.py:163} INFO - Started process (PID=18769) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:18:06,861] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:18:06,862] {logging_mixin.py:109} INFO - [2022-04-11 17:18:06,862] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:18:06,905] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:18:06,912] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:18:07,079] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py:602 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-04-11 17:18:07,082] {logging_mixin.py:109} INFO - [2022-04-11 17:18:07,079] {dagbag.py:602} ERROR - Failed to write serialized DAG: /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+Traceback (most recent call last):
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 597, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _sync_perm_for_dag
+    from flask_appbuilder.security.sqla import models as sqla_models
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/__init__.py", line 5, in <module>
+    from .api import ModelRestApi  # noqa: F401
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/__init__.py", line 21, in <module>
+    from .convert import Model2SchemaConverter
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/api/convert.py", line 4, in <module>
+    from flask_appbuilder.models.sqla.interface import SQLAInterface
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/flask_appbuilder/models/sqla/interface.py", line 16, in <module>
+    from sqlalchemy_utils.types.uuid import UUIDType
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/__init__.py", line 59, in <module>
+    from .types import (  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/__init__.py", line 20, in <module>
+    from .password import Password, PasswordType  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy_utils/types/password.py", line 5, in <module>
+    from sqlalchemy.dialects import oracle, postgresql, sqlite
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/__init__.py", line 9, in <module>
+    from . import cx_oracle  # noqa
+  File "/home/airflow/airflow/env/lib/python3.8/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py", line 679, in <module>
+    class ReturningResultProxy(_result.FullyBufferedResultProxy):
+AttributeError: module 'sqlalchemy.engine.result' has no attribute 'FullyBufferedResultProxy'
+[2022-04-11 17:18:07,083] {logging_mixin.py:109} INFO - [2022-04-11 17:18:07,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:18:07,100] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:18:07,112] {logging_mixin.py:109} INFO - [2022-04-11 17:18:07,112] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:18:07,140] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.285 seconds
+[2022-04-11 17:23:01,640] {processor.py:163} INFO - Started process (PID=19474) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:23:01,642] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:23:01,642] {logging_mixin.py:109} INFO - [2022-04-11 17:23:01,642] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:23:01,675] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:23:01,681] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:23:02,002] {logging_mixin.py:109} INFO - [2022-04-11 17:23:02,001] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:23:02,012] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:23:02,020] {logging_mixin.py:109} INFO - [2022-04-11 17:23:02,020] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:23:02,038] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.401 seconds
+[2022-04-11 17:23:55,377] {processor.py:163} INFO - Started process (PID=19509) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:23:55,378] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:23:55,379] {logging_mixin.py:109} INFO - [2022-04-11 17:23:55,379] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:23:55,432] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:23:55,440] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:23:55,945] {logging_mixin.py:109} INFO - [2022-04-11 17:23:55,945] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:23:55,959] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:23:55,971] {logging_mixin.py:109} INFO - [2022-04-11 17:23:55,971] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:23:55,994] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.622 seconds
+[2022-04-11 17:24:44,964] {processor.py:163} INFO - Started process (PID=19543) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:24:44,965] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:24:44,965] {logging_mixin.py:109} INFO - [2022-04-11 17:24:44,965] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:24:44,992] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:24:44,996] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:24:45,260] {logging_mixin.py:109} INFO - [2022-04-11 17:24:45,260] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:24:45,270] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:24:45,277] {logging_mixin.py:109} INFO - [2022-04-11 17:24:45,277] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:24:45,290] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.329 seconds
+[2022-04-11 17:25:47,787] {processor.py:163} INFO - Started process (PID=19582) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:25:47,789] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:25:47,789] {logging_mixin.py:109} INFO - [2022-04-11 17:25:47,789] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:25:47,819] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:25:47,823] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:25:48,110] {logging_mixin.py:109} INFO - [2022-04-11 17:25:48,110] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:25:48,128] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:25:48,136] {logging_mixin.py:109} INFO - [2022-04-11 17:25:48,136] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:25:48,154] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.370 seconds
+[2022-04-11 17:27:01,761] {processor.py:163} INFO - Started process (PID=19792) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:27:01,762] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:27:01,762] {logging_mixin.py:109} INFO - [2022-04-11 17:27:01,762] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:27:01,796] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:27:01,801] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:27:02,122] {logging_mixin.py:109} INFO - [2022-04-11 17:27:02,122] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:27:02,133] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:27:02,142] {logging_mixin.py:109} INFO - [2022-04-11 17:27:02,142] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:27:02,158] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.400 seconds
+[2022-04-11 17:27:53,137] {processor.py:163} INFO - Started process (PID=19851) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:27:53,138] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:27:53,139] {logging_mixin.py:109} INFO - [2022-04-11 17:27:53,139] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:27:53,181] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:27:53,188] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:27:53,598] {logging_mixin.py:109} INFO - [2022-04-11 17:27:53,597] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:27:53,614] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:27:53,626] {logging_mixin.py:109} INFO - [2022-04-11 17:27:53,626] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:27:53,646] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.513 seconds
+[2022-04-11 17:28:56,450] {processor.py:163} INFO - Started process (PID=19892) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:28:56,450] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:28:56,451] {logging_mixin.py:109} INFO - [2022-04-11 17:28:56,451] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:28:56,487] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:28:56,492] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:28:56,818] {logging_mixin.py:109} INFO - [2022-04-11 17:28:56,817] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:28:56,829] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:28:56,838] {logging_mixin.py:109} INFO - [2022-04-11 17:28:56,838] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:28:56,855] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.409 seconds
+[2022-04-11 17:29:58,650] {processor.py:163} INFO - Started process (PID=19936) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:29:58,651] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:29:58,652] {logging_mixin.py:109} INFO - [2022-04-11 17:29:58,652] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:29:58,692] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:29:58,699] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:29:59,140] {logging_mixin.py:109} INFO - [2022-04-11 17:29:59,140] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:29:59,156] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:29:59,167] {logging_mixin.py:109} INFO - [2022-04-11 17:29:59,167] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:29:59,186] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.539 seconds
+[2022-04-11 17:30:58,726] {processor.py:163} INFO - Started process (PID=19975) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:30:58,726] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:30:58,727] {logging_mixin.py:109} INFO - [2022-04-11 17:30:58,727] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:30:58,759] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:30:58,765] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:30:59,094] {logging_mixin.py:109} INFO - [2022-04-11 17:30:59,093] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:30:59,106] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:30:59,114] {logging_mixin.py:109} INFO - [2022-04-11 17:30:59,114] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:30:59,133] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.411 seconds
+[2022-04-11 17:31:59,145] {processor.py:163} INFO - Started process (PID=20060) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:31:59,146] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:31:59,147] {logging_mixin.py:109} INFO - [2022-04-11 17:31:59,147] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:31:59,182] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:31:59,188] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:31:59,504] {logging_mixin.py:109} INFO - [2022-04-11 17:31:59,504] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:31:59,514] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:31:59,524] {logging_mixin.py:109} INFO - [2022-04-11 17:31:59,524] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:31:59,539] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.398 seconds
+[2022-04-11 17:32:58,557] {processor.py:163} INFO - Started process (PID=20246) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:32:58,558] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:32:58,559] {logging_mixin.py:109} INFO - [2022-04-11 17:32:58,559] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:32:58,609] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:32:58,619] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:32:59,070] {logging_mixin.py:109} INFO - [2022-04-11 17:32:59,070] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:32:59,087] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:32:59,098] {logging_mixin.py:109} INFO - [2022-04-11 17:32:59,097] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:32:59,117] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.565 seconds
+[2022-04-11 17:34:02,382] {processor.py:163} INFO - Started process (PID=20360) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:34:02,383] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:34:02,384] {logging_mixin.py:109} INFO - [2022-04-11 17:34:02,384] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:34:02,425] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:34:02,431] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:34:02,795] {logging_mixin.py:109} INFO - [2022-04-11 17:34:02,795] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:34:02,810] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:34:02,818] {logging_mixin.py:109} INFO - [2022-04-11 17:34:02,818] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:34:02,835] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.456 seconds
+[2022-04-11 17:35:00,334] {processor.py:163} INFO - Started process (PID=20464) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:35:00,335] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:35:00,335] {logging_mixin.py:109} INFO - [2022-04-11 17:35:00,335] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:35:00,365] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:35:00,369] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:35:00,642] {logging_mixin.py:109} INFO - [2022-04-11 17:35:00,642] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:35:00,653] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:35:00,662] {logging_mixin.py:109} INFO - [2022-04-11 17:35:00,662] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:35:00,679] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.350 seconds
+[2022-04-11 17:36:04,696] {processor.py:163} INFO - Started process (PID=20509) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:36:04,696] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:36:04,697] {logging_mixin.py:109} INFO - [2022-04-11 17:36:04,697] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:36:04,728] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:36:04,733] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:36:05,054] {logging_mixin.py:109} INFO - [2022-04-11 17:36:05,054] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:36:05,065] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:36:05,075] {logging_mixin.py:109} INFO - [2022-04-11 17:36:05,075] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:36:05,091] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.398 seconds
+[2022-04-11 17:37:33,906] {processor.py:163} INFO - Started process (PID=21001) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:37:33,908] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:37:33,909] {logging_mixin.py:109} INFO - [2022-04-11 17:37:33,909] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:37:34,083] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:37:34,101] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:37:35,372] {logging_mixin.py:109} INFO - [2022-04-11 17:37:35,372] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:37:35,405] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:37:35,429] {logging_mixin.py:109} INFO - [2022-04-11 17:37:35,429] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:37:35,472] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.580 seconds
+[2022-04-11 17:39:00,380] {processor.py:163} INFO - Started process (PID=21108) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:39:00,383] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:39:00,383] {logging_mixin.py:109} INFO - [2022-04-11 17:39:00,383] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:39:00,417] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:39:00,422] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:39:00,831] {logging_mixin.py:109} INFO - [2022-04-11 17:39:00,831] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:39:00,844] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:39:00,864] {logging_mixin.py:109} INFO - [2022-04-11 17:39:00,864] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:39:00,935] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.558 seconds
+[2022-04-11 17:39:54,627] {processor.py:163} INFO - Started process (PID=21229) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:39:54,630] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:39:54,633] {logging_mixin.py:109} INFO - [2022-04-11 17:39:54,632] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:39:54,733] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:39:54,745] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:39:55,736] {logging_mixin.py:109} INFO - [2022-04-11 17:39:55,736] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:39:55,775] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:39:55,805] {logging_mixin.py:109} INFO - [2022-04-11 17:39:55,805] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:39:55,866] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.246 seconds
+[2022-04-11 17:41:18,256] {processor.py:163} INFO - Started process (PID=21390) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:41:18,257] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:41:18,258] {logging_mixin.py:109} INFO - [2022-04-11 17:41:18,258] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:41:18,290] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:41:18,297] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:41:18,645] {logging_mixin.py:109} INFO - [2022-04-11 17:41:18,645] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:41:18,656] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:41:18,664] {logging_mixin.py:109} INFO - [2022-04-11 17:41:18,664] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:41:18,681] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.428 seconds
+[2022-04-11 17:42:29,884] {processor.py:163} INFO - Started process (PID=21774) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:42:29,886] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:42:29,887] {logging_mixin.py:109} INFO - [2022-04-11 17:42:29,887] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:42:29,931] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:42:29,937] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:42:30,296] {logging_mixin.py:109} INFO - [2022-04-11 17:42:30,296] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:42:30,309] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:42:30,318] {logging_mixin.py:109} INFO - [2022-04-11 17:42:30,318] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:42:30,335] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.455 seconds
+[2022-04-11 17:43:31,449] {processor.py:163} INFO - Started process (PID=21976) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:43:31,450] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:43:31,451] {logging_mixin.py:109} INFO - [2022-04-11 17:43:31,450] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:43:31,486] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:43:31,493] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:43:31,847] {logging_mixin.py:109} INFO - [2022-04-11 17:43:31,847] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:43:31,863] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:43:31,877] {logging_mixin.py:109} INFO - [2022-04-11 17:43:31,877] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:43:31,897] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.451 seconds
+[2022-04-11 17:44:42,188] {processor.py:163} INFO - Started process (PID=22294) to work on /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:44:42,191] {processor.py:642} INFO - Processing file /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-04-11 17:44:42,191] {logging_mixin.py:109} INFO - [2022-04-11 17:44:42,191] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:44:42,241] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-04-11 17:44:42,249] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/serialized_dag.py:120 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:44:42,743] {logging_mixin.py:109} INFO - [2022-04-11 17:44:42,743] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-11 17:44:42,765] {logging_mixin.py:109} WARNING - /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/models/dag.py:2433 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-04-11 17:44:42,797] {logging_mixin.py:109} INFO - [2022-04-11 17:44:42,797] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-04-11 17:44:42,822] {processor.py:171} INFO - Processing /home/airflow/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.639 seconds
