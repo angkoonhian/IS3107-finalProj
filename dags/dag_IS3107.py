@@ -8,6 +8,10 @@ import cvxpy as cvx
 from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.operators.python import PythonOperator
+from airflow.contrib.hooks.snowflake_hook import SnowflakeHook
+from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
