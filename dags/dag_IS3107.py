@@ -14,8 +14,9 @@ import numpy as np
 import pandas as pd
 from pandas_datareader.data import DataReader
 
-import requests_cache
-session = requests_cache.CachedSession(cache_name='cache', backend='sqlite')
+from requests import Request, Session
+
+session = Session()
 
 tickers = ['U11.SI', 'D05.SI', 'C52.SI',
 'BN4.SI',
@@ -72,7 +73,7 @@ def get_data_for_multiple_stocks(tickers, start_date, end_date):
     
     for ticker in tickers:
         # retrieve stock data (includes Date, OHLC, Volume, Adjusted Close)
-        s = DataReader(ticker, 'yahoo', datetime.date(datetime.now()) - timedelta(days=365), datetime.date(datetime.now()), session=session)
+        s = DataReader(ticker, 'yahoo', datetime.date(datetime.now()) - timedelta(days=365), datetime.date(datetime.now()))
         # calculate log returns
         s['Log Returns'] = np.log(s['Adj Close']/s['Adj Close'].shift(1))
         # append to returns_df

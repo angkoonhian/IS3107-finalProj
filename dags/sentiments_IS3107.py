@@ -6,6 +6,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.operators.python import PythonOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 import yfinance as yf
 import pandas as pd
 from pandas_datareader.data import DataReader
