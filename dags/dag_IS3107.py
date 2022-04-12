@@ -1,8 +1,5 @@
 # portfolio opt packages
 import cvxpy as cvx
-# from pypfopt import EfficientFrontier
-# from pypfopt import risk_models
-# from pypfopt import expected_returns
 
 # importing packages
 from airflow import DAG
