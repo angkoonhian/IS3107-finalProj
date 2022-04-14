@@ -166,11 +166,4 @@ with DAG(
     send_email = PythonOperator(
         task_id='send_sentiment_email', python_callable=retrieve_today_senti_send_email)
 
-    trigger = TriggerDagRunOperator(
-        task_id="test_trigger_dagrun",
-        # Ensure this equals the dag_id of the DAG to trigger
-        trigger_dag_id="example_trigger_target_dag",
-        conf={"message": "Hello World (sentimentally)"},
-    )
-
     snowflake_sentimental_operator >> send_email
