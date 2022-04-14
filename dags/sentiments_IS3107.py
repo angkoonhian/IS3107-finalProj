@@ -86,7 +86,7 @@ def get_sentimental_analysis():
 def retrieve_today_senti_send_email():
     import smtplib
     today = datetime.today().strftime("%Y-%m-%d")
-    sql_string = 'select * from sentimental.public.sentimentals s where "Date"=to_date(\'2022-04-14\',\'YYYY-MM-DD\') LIMIT 1'
+    sql_string = f'select * from sentimental.public.sentimentals s where "Date"=to_date(\'{today}\',\'YYYY-MM-DD\') LIMIT 1'
     snowflakeHook = SnowflakeHook(snowflake_conn_id="SnowflakeConnection",
         warehouse='COMPUTE_WH',
         database='SENTIMENTALS',
