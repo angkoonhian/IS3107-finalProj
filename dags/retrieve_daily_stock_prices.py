@@ -58,7 +58,7 @@ with DAG("RETRIEVE_DAILY_STOCK_PRICES", default_args={'depends_on_past': True,
          tags=['Extract']) as dag:
 
     for ticker in tickers:
-        tickerName = ticker.split(".")[0]
+        tickerName = "S_" + ticker.split(".")[0]
 
         currentDate = datetime.today().strftime('%Y-%m-%d')
 
@@ -68,7 +68,7 @@ with DAG("RETRIEVE_DAILY_STOCK_PRICES", default_args={'depends_on_past': True,
             currentDate, currentDate)
 
         snowflakeQuery = [
-            "INSERT INTO '{tickerName}' VALUES(CURRENT_DATE(), {high}, {low}, {open}, {close}, {volume}, {adjClose})".format(
+            "INSERT INTO {tickerName} VALUES(CURRENT_DATE(), {high}, {low}, {open}, {close}, {volume}, {adjClose})".format(
                 tickerName=tickerName,
                 high=s.iloc[0]["High"],
                 low=s.iloc[0]["Low"],
@@ -81,7 +81,7 @@ with DAG("RETRIEVE_DAILY_STOCK_PRICES", default_args={'depends_on_past': True,
             task_id='extract_{tickerName}'.format(
                 tickerName=tickerName),
             sql=snowflakeQuery,
-            snowflake_conn_id="SnowflakeConnection", schema="STI_DAILY_RAW_DATA"
+            snowflake_conn_id="SnowflakeConnection", schema="STI_DAILY_RAW_DATA", database="PORTFOLIO_REBALANCING"
           )
 
         snowflakeOp

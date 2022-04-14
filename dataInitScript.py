@@ -3,10 +3,13 @@ from sqlalchemy import create_engine
 from snowflake.sqlalchemy import URL
 from requests import Request, Session
 from pandas_datareader.data import DataReader
+import pandas as pd
 
 """Script to Initialise snowflake database from 1st October 2021 to 1st April 2022"""
 
-engine = create_engine(URL(
+"""DONT RUN THIS SINCE DB IS ALREADY INITIALISED"""
+
+engine1 = create_engine(URL(
     user='weilin',
     password='P@ssword1',
     account='oq82740',
@@ -15,7 +18,19 @@ engine = create_engine(URL(
     schema="STI_DAILY_RAW_DATA",
     region="ap-southeast-1"
 ))
-connection = engine.connect()
+connection1 = engine1.connect()
+
+engine2 =  create_engine(URL(
+    user='weilin',
+    password='P@ssword1',
+    account='oq82740',
+    warehouse="COMPUTE_WH",
+    database="PORTFOLIO_REBALANCING",
+    schema="MONTHLY_PORTFOLIO_BALANCES",
+    region="ap-southeast-1"
+))
+
+connection2 = engine2.connect()
 
 tickers = ['U11.SI', 'D05.SI', 'C52.SI',
 'BN4.SI',
@@ -53,7 +68,7 @@ session.headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.
                    'Accept': 'application/json;charset=utf-8'}
 
 for ticker in tickers:
-    tickerName=ticker.split(".")[0]
+    tickerName="S_" + ticker.split(".")[0]
 
 
     s=DataReader(
@@ -61,13 +76,23 @@ for ticker in tickers:
               'yahoo',
              "2021-10-1", "2022-04-01")
 
-    s = s.reset_index() 
+    s = s.reset_index()
+
+    s.rename(columns={"Date" : "DataDate"}, inplace = True)
 
     print(s)
 
-    s.to_sql("{ticker}".format(ticker=tickerName), con=engine, index=False)
+    weights = {"DataDate" : ["1970-01-01"], "Weights" : [0.00000], "DifferenceFromPrev" : [0.00000]}
 
-connection.close()
-engine.dispose()
+    weightDf = pd.DataFrame(data=weights);
+    print(weightDf)
+    # s.to_sql("{ticker}".format(ticker=tickerName), con=engine1, index=False)
+    weightDf.to_sql("{ticker}".format(ticker=tickerName), con=engine2, index=False)
+
+
+connection1.close()
+connection2.close()
+engine1.dispose()
+engine2.dispose()
 
 
