@@ -7,83 +7,40 @@ from datetime import datetime, timedelta
 from airflow.operators.python import PythonOperator
 from airflow.contrib.hooks.snowflake_hook import SnowflakeHook
 from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
-
-
-import numpy as np
 import pandas as pd
 from pandas_datareader.data import DataReader
 
-from requests import Request, Session
 
-session = Session()
-
-tickers = ['U11.SI', 'D05.SI', 'C52.SI',
-'BN4.SI',
-'V03.SI',
-'C38U.SI',
-'A17U.SI',
-'Z74.SI',
-'O39.SI',
-'N2IU.SI',
-'Y92.SI',
-'F34.SI',
-'ME8U.SI',
-'AJBU.SI',
-'C09.SI',
-'M44U.SI',
-'U96.SI',
-'9CI.SI',
-'BS6.SI',
-'G13.SI',
-'S58.SI',
-'BUOU.SI',
-'H78.SI',
-'U14.SI',
-'S68.SI',
-'D01.SI',
-'C6L.SI',
-'S63.SI',
-'C07.SI',
-'J36.SI',
+tableNames = ['U11', 'D05', 'C52',
+'BN4',
+'V03',
+'C38U',
+'A17U',
+'Z74',
+'O39',
+'N2IU',
+'Y92',
+'F34',
+'ME8U',
+'AJBU',
+'C09',
+'M44U',
+'U96',
+'\"9CI\"',
+'BS6',
+'G13',
+'S58',
+'BUOU',
+'H78',
+'U14',
+'S68',
+'D01',
+'C6L',
+'S63',
+'C07',
+'J36',
 ]
 
-# just add headers to your session and provide it to the reader
-session.headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
-                   'Accept': 'application/json;charset=utf-8'}
-
-# predefine method for getting stock data
-def get_data_for_multiple_stocks(tickers, start_date, end_date):
-    '''
-    Function that uses Pandas DataReader to download data directly from Yahoo Finance,
-    computes the Log Returns series for each ticker, and returns a DataFrame 
-    containing the Log Returns of all specified tickers.
-    
-    Parameters:
-    - tickers (list): List of Stock Tickers.
-    - start_date, end_date (str): Start and end dates in the format 'YYYY-MM-DD'.
-    
-    Returns:
-    - returns_df (pd.DataFrame): A DataFrame with dates as indexes, and columns corresponding
-                                 to the log returns series of each ticker.
-    '''
-
-    # initialise output dataframe
-    returns_df = pd.DataFrame()
-    
-    for ticker in tickers:
-        # retrieve stock data (includes Date, OHLC, Volume, Adjusted Close)
-        s = DataReader(ticker, 'yahoo', datetime.date(datetime.now()) - timedelta(days=365), datetime.date(datetime.now()))
-        # calculate log returns
-        s['Log Returns'] = np.log(s['Adj Close']/s['Adj Close'].shift(1))
-        # append to returns_df
-        returns_df[ticker] = s['Log Returns']
-        
-    # skip the first row (that will be NA)
-    # and fill other NA values by 0 in case there are trading halts on specific days
-    returns_df = returns_df.iloc[1:].fillna(0)
-        
-    return returns_df
-    
 # Standard optimization with cvxpy
     
 def get_optimized_portfolio(returns_df, returns_scale = .0001, max_holding = 0.5):
@@ -162,22 +119,53 @@ def get_optimized_portfolio(returns_df, returns_scale = .0001, max_holding = 0.5
         result = problem.solve()
 
         return x.value
-        
-# predefine portfolio opt methods
-def portfolio_opt():
 
-    returns_df = get_data_for_multiple_stocks(tickers, datetime.date(datetime.now()) - timedelta(days=365), datetime.date(datetime.now()))
+# predefine method for getting stock data
+def retrieveAndCalculateLogReturns(**kwargs):
+
+    currentMonth = datetime.now().month
+    currentYear = datetime.now().year
+    
+    # initialise output dataframe
+    logReturnsPd = pd.DataFrame()
+
+    snowflakeHook = SnowflakeHook(snowflake_conn_id="SnowflakeConnection", schema="STI_DAILY_RAW_DATA")
+
+    for name in tableNames :
+        sqlResult = snowflakeHook.get_pandas_df("SELECT * FROM '{name}' WHERE DATADATE MONTH({currentMonth} AND YEAR({currentYear}))".format(name=name, currentMonth=currentMonth, currentYear={currentYear}))
+
+        sqlResults["Log Returns"] = np.log(s['ADJCLOSE']/s['ADJCLOSE'].shift(1))
+
+        logReturnsPd[name] = s["Log Returns"]
+
+    # skip the first row (that will be NA)
+    # and fill other NA values by 0 in case there are trading halts on specific days
+    logReturnsPd = logReturnsPd.iloc[1:].fillna(0)
+
+    return logReturnsPd
+
+    
+# predefine portfolio opt methods
+def portfolio_opt(**kwargs):
+
     # extract previous output with xcom
-    simple_returns = simple_returns = np.exp(returns_df) -1
-    # define in-sample period (for optimization) and out-of-sample period (for evaluation)
-    in_sample = "2020-01-01"
-    is_returns_df = simple_returns.loc[:in_sample]
-    oos_returns_df = simple_returns.loc[in_sample:][1:] # one day after in_sample date
-    print(simple_returns)
-    print("??")
+    ti = kwargs['ti']
+
+    logReturnsDf =  ti.xcom_pull(task_ids='fetch_monthly_log_returns')
+    simple_returns = np.exp(logReturnsDf) -1
+
+
     # Set max holdings to 1, no limits
-    example = get_optimized_portfolio(simple_returns, returns_scale = 0, max_holding = 1)
-    return round(pd.Series(example, index = is_returns_df.columns), 2)
+    optPortfolio = get_optimized_portfolio(simple_returns, returns_scale = 0, max_holding = 1)
+
+    optPortfolioInstance = kwargs["optPortfolioInstance"]
+    optPortfolioInstance.xcom_push(key="optPortSeries", value=optPortfolio)
+
+    print(optPortfolio)
+
+    return round(pd.Series(optPortfolio, index = simple_returns.columns), 2)
+
+
 
 with DAG(
         'IS3107_final',
@@ -193,13 +181,36 @@ with DAG(
         description='Final Project IS3107',
         schedule_interval=timedelta(minutes=1),
         start_date=datetime(2022,4,10),
-        catchup=True,
-        tags=['IS3107']
-        ) as dag:
+        catchup=False,
+        tags=['Monthly Portfolio Balancing']
+        ) as dag:       
         
-        # get_market_data = PythonOperator(task_id='get_market_data', python_callable=get_data_for_multiple_stocks(['AAPL'], '2022-03-03', '2022-03-05'), dag=dag)
-       
-        
+        retrieve_and_calculate_log_returns = PythonOperator(task_id="fetch_monthly_log_returns", python_callable=retrieveAndCalculateLogReturns)
         get_opt_portfolio = PythonOperator(task_id='get_opt_portfolio', python_callable=portfolio_opt)
+
         
-        get_opt_portfolio
+        retrieve_and_calculate_log_returns >> get_opt_portfolio
+
+
+        optPortfolioSeries = optPortfolioInstance.xcom.pull(task_id="get_opt_portfolio", key="optPortSeries")
+
+        for index, value in optPortfolioSeries.items() :
+
+            snowflakeHook = SnowflakeHook(snowflake_conn_id="SnowflakeConnection", schema="MONTHLY_PORTFOLIO_BALANCES")
+
+            lastMonth = snowflakeHook.get_first("SELECT TOP 1 * FROM {tickerName} ORDER BY ID DESC".format(tickerName=index))
+
+            print(lastMonth)
+
+            difference = value - lastMonth["Weights"] 
+
+            uploadQuery = ["CREATE TABLE IF NOT EXISTS {tickerName} (date DATE, Weights (FLOAT) Difference From Prev (FLOAT)".format(
+            tickerName=index), "INSERT INTO {tickerName} VALUES(CURRENT_DATE(), {weight}, {difference})".format(tickerName=index, weight=value, difference={difference})]
+
+            snowflakeOp = SnowflakeOperator(  task_id='upload_{tickerName}'.format(
+                tickerName=tickerName),
+            sql=sqlQuery,
+            snowflake_conn_id="SnowflakeConnection", schema="MONTHLY_PORTFOLIO_BALANCES")
+
+
+            get_opt_portfolio >> snowflakeOp
