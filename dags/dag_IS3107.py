@@ -9,8 +9,6 @@ from airflow.contrib.hooks.snowflake_hook import SnowflakeHook
 from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
 
 
-import matplotlib.pyplot as plt
-import seaborn as sns
 import numpy as np
 import pandas as pd
 from pandas_datareader.data import DataReader
