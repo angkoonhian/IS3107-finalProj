@@ -80,7 +80,7 @@ with DAG(
             'retry_delay': timedelta(minutes=1),
         },
         description='Final Project IS3107 Sentiment Analysis',
-        schedule_interval=timedelta(seconds=30),
+        schedule_interval=timedelta(days=1),
         start_date=datetime(2022,4,13),
         catchup=False,
         tags=['IS3107']
@@ -92,9 +92,11 @@ with DAG(
     snowflake_sentimental_operator = SnowflakeOperator(
         task_id='insert_senti_data',
         sql=sql_string,
-        snowflake_conn_id='sentimental_connection', 
-        schema='PUBLIC', 
-        database='SENTIMENTAL',
+        snowflake_conn_id='SnowflakeConnection',
+        warehouse='COMPUTE_WH',
+        database='SENTIMENTALS',
+        schema='PUBLIC',
+        role='ACCOUNTADMIN',
     )
 
     # get_sentimental_analysis = PythonOperator(
@@ -108,5 +110,3 @@ with DAG(
     )
 
     snowflake_sentimental_operator
-
-    
