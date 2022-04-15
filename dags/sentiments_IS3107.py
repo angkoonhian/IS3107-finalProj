@@ -125,7 +125,7 @@ def retrieve_today_senti_send_email():
 
 
 with DAG(
-        'IS3107_final_sentiment',
+        'Sentiments',
         # pass in default args
         default_args={
             'depends_on_past': True,
