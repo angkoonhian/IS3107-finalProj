@@ -86,8 +86,8 @@ for ticker in tickers:
 
     weightDf = pd.DataFrame(data=weights);
     print(weightDf)
-    # s.to_sql("{ticker}".format(ticker=tickerName), con=engine1, index=False)
-    weightDf.to_sql("{ticker}".format(ticker=tickerName), con=engine2, index=False)
+    s.to_sql("{ticker}".format(ticker=tickerName), con=engine1, index=False)
+    # weightDf.to_sql("{ticker}".format(ticker=tickerName), con=engine2, index=False)
 
 
 connection1.close()

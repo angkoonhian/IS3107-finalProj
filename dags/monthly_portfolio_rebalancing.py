@@ -130,7 +130,7 @@ def retrieveAndCalculateLogReturns(**kwargs):
     snowflakeHook = SnowflakeHook(snowflake_conn_id="SnowflakeConnection", schema="STI_DAILY_RAW_DATA", database="PORTFOLIO_REBALANCING" )
 
     for name in tableNames :
-        sqlResult = snowflakeHook.get_pandas_df("SELECT * FROM 'S_{name}' WHERE MONTH(date) = {currentMonth} AND YEAR(date) = {currentYear}".format(name=name, currentMonth=currentMonth, currentYear={currentYear}))
+        sqlResult = snowflakeHook.get_pandas_df('SELECT * FROM S_{name} WHERE MONTH("DataDate") = {currentMonth} AND YEAR("DataDate") = {currentYear}'.format(name=name, currentMonth=currentMonth, currentYear=currentYear))
 
         ## since april got no data yet, i queried for march data
         # sqlResult = snowflakeHook.get_pandas_df('SELECT * FROM S_{name} ticker WHERE MONTH("DataDate") = 3 AND YEAR("DataDate") = 2022'.format(name=name))
@@ -166,17 +166,7 @@ def portfolio_opt(**kwargs):
     return round(pd.Series(optPortfolio, index=simple_returns.columns), 5).to_json()
 
 
-def retrieve_previous_portfolio(tickerName, value) :
 
-    snowflakeHook = SnowflakeHook(snowflake_conn_id="SnowflakeConnection", schema="MONTHLY_PORTFOLIO_BALANCES",database="PORTFOLIO_REBALANCING" )  
-    lastMonth = snowflakeHook.get_first('SELECT TOP 1 * FROM {tickerName} ORDER BY "DataDate" DESC'.format(tickerName=tickerName))
-
-    print(lastMonth[1])
-    print(value)
-
-    difference = value - lastMonth[1] 
-
-    return difference
 
 
 with DAG(
@@ -196,9 +186,18 @@ with DAG(
         catchup=False,
         tags=['Monthly Portfolio Balancing']
         ) as dag:       
+
+        def retrieve_previous_portfolio(tickerName, value) :
+
+            snowflakeHook = SnowflakeHook(snowflake_conn_id="SnowflakeConnection", schema="MONTHLY_PORTFOLIO_BALANCES",database="PORTFOLIO_REBALANCING" )  
+            lastMonth = snowflakeHook.get_first('SELECT TOP 1 * FROM {tickerName} ORDER BY "DataDate" DESC'.format(tickerName=tickerName))
+
+            difference = value - lastMonth[1] 
+
+            return difference
             
         
-        retrieve_and_calculate_log_returns = PythonOperator(task_id="fetch_monthly_log_returns", python_callable=retrieveAndCalculateLogReturns)
+        retrieve_and_calculate_log_returns = PythonOperator(task_id="fetch_monthly_stock_prices", python_callable=retrieveAndCalculateLogReturns)
         get_opt_portfolio = PythonOperator(task_id='get_opt_portfolio', python_callable=portfolio_opt)
         
 
