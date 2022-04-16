@@ -4,8 +4,9 @@
 1. Create an python env : <code>python3 venv env</code>
 2. Run the env <code>source env/bin/activate</code>
 3. Install dependencies <code>pip install -r requirements.txt</code>
-4. Init DB <code>airflow db init</code>
-5. Init a superuser <br/>
+4. Set Airflow's dag directory to <FOLDER_DIR>/dags
+5. Init DB <code>airflow db init</code>
+6. Init a superuser <br/>
   <code>airflow users create \
 --username admin \
 --firstname firstName \
