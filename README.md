@@ -16,17 +16,3 @@
 6. Run Airflow <code>airflow webserver --port 8080</code>
 7. Run Scheduler <code>airflow scheduler</code>
 8. Login
-
-## Snowflake Connection
-
-#### Admin > Connections > Add Connection
-
-Connection ID : SnowflakeConnection <br />
-Connection Type : Snowflake<br />
-Host : oq82740.ap-southeast-1.snowflakecomputing.com<br />
-login : weilin<br />
-password : P@ssword1<br />
-Account : oq82740<br />
-Database : PORTFOLIO_REBALANCING<br />
-Region : ap-southeast-1<br/>
-Warehouse : COMPUTE_WH<br />
